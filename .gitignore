@@ -17,6 +17,9 @@ src/config/jei/lookupHistory.zip
 src/config/worldutils/*
 src/config/sampler.ini
 
+#dist
+dist/
+
 # IDE
 .idea/
 
