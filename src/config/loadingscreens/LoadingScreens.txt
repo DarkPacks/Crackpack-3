@@ -1,0 +1,7 @@
+background = addStretchedTexture("top_left", "crackpack_3:textures/gui/title/background/BG_new.png")
+background.setRelRender(1, 1)
+
+tips = addRandomText("top_left")
+tips.setAbsXOffset(5)
+tips.setAbsYOffset(5)
+tips.addTip("While falling, your character may change position.")
