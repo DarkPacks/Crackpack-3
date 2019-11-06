@@ -6,6 +6,10 @@ src/config/cd4017be/inductiveLogistics.rcp.old
 src/config/cd4017be/compiled.dat
 src/config/cd4017be/core.rcp.old
 
+# Journeymap
+src/journeymap/journeymap.log
+src/journeymap/icon/*
+
 # Client Only Files
 src/config/InvTweaks.cfg
 src/config/MouseTweaks.cfg
