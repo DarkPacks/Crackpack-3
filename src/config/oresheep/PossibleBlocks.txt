@@ -304,6 +304,8 @@ for.resources
 for.resource_storage
 for.ash_brick
 for.ash_stairs
+for.greenhouse
+for.climatiser
 for.logs.0
 for.logs.1
 for.logs.2
@@ -507,7 +509,6 @@ for.doors.ipe
 for.doors.padauk
 for.doors.cocobolo
 for.doors.zebrawood
-for.genetic_filter
 for.beehives
 for.candle
 for.stump
@@ -520,8 +521,6 @@ for.alveary.hygro
 for.alveary.stabiliser
 for.alveary.sieve
 for.habitat_former
-for.greenhouse
-for.climatiser
 for.charcoal
 for.wood_pile
 for.wood_pile_decorative
@@ -536,6 +535,7 @@ for.farm_gourd
 for.farm_nether
 for.farm_ender
 for.peat_bog
+for.genetic_filter
 botany.soil.soil
 botany.soil.loam
 botany.soil.flowerbed
@@ -2285,14 +2285,6 @@ chopping_board
 dough
 mortar_and_pestle
 bakeware
-diesel
-lubricant
-kerosene
-etchacid
-plastic
-oil
-fuel
-lpg
 pressure_tube
 advanced_pressure_tube
 air_compressor
@@ -2337,6 +2329,14 @@ flux_compressor
 pneumatic_dynamo
 fake_ice
 thermal_compressor
+etchacid
+lubricant
+kerosene
+fuel
+lpg
+diesel
+oil
+plastic
 rats.block_of_cheese
 rats.cauldron_milk
 rats.cauldron_cheese
