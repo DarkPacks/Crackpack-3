@@ -1,0 +1,13 @@
+allOres
+hellrock
+blocks to eat:
+stairsStone
+stoneSlab
+button
+pressurePlateStone
+stonebrick
+cobbleWall
+stoneMoss
+gravel
+stonebricksmooth
+stairsStoneBrickSmooth

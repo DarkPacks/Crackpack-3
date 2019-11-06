@@ -1,0 +1,6 @@
+{
+  "astralsorcery:entityflare": {
+    "abilities": ["fly"],
+    "health": 1
+  }
+}
