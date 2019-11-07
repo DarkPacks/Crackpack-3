@@ -16,6 +16,12 @@ initIntegration();
 function initRecipes() {
 	scripts.crafttweaker.recipes.hideCategory.init();
 	scripts.crafttweaker.recipes.removeAndHide.init();
+
+
+
+	// Mod Specific Recipes
+	scripts.crafttweaker.recipes.mods.galacticraft.init();
+	scripts.crafttweaker.recipes.mods.forestry.init();
 }
 
 function initIntegration() {
