@@ -25,6 +25,7 @@ function initRecipes() {
 }
 
 function initIntegration() {
+	scripts.crafttweaker.modIntegrations.lootTableTweaker.init();
 }
 
 function initItemModifiers() {
