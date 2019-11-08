@@ -1,8 +1,8 @@
 import mods.apotheosis.BossArmor;
 
-BossArmor.removeSet("gold");
-BossArmor.removeSet("iron");
-BossArmor.removeSet("diamond");
+BossArmor.removeSet("apotheosis:gold");
+BossArmor.removeSet("apotheosis:iron");
+BossArmor.removeSet("apotheosis:diamond");
 
 BossArmor.addArmorSet(0, "iron_tank", 
 <minecraft:iron_sword>, 
