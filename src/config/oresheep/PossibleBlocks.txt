@@ -1098,7 +1098,6 @@ chisel.carpet_orange
 chisel.carpet_white
 chisel.block_charcoal
 chisel.cloud
-chisel.blockCobalt
 chisel.cobblestone
 chisel.block_coal
 chisel.block_coal_coke
@@ -1980,12 +1979,12 @@ paintedAcacia
 paintedAcaciaSlab
 campfire
 grottol
-lubricant
-etchacid
 lpg
 plastic
+lubricant
 kerosene
 diesel
+etchacid
 pressure_tube
 advanced_pressure_tube
 air_compressor
