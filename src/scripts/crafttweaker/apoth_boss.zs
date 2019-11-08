@@ -88,7 +88,7 @@ BossArmor.addArmorSet(2, "platinum",
 <thermalfoundation:armor.plate_platinum>, 
 <thermalfoundation:armor.helmet_platinum>);
 
-BossArmor.addArmorSet(1, "master_fire_mage", 
+BossArmor.addArmorSet(3, "master_fire_mage", 
 <ebwizardry:master_fire_wand>, 
 <ebwizardry:ring_disintegration>,
 <ebwizardry:wizard_boots_fire>.withTag({legendary: 1 as byte}), 
