@@ -1,6 +1,6 @@
-setTitle("Crackpack 3!")
-
 setIcon(<harvestcraft:crackeritem>)
+
+setTitle("Crackpack 3!")
 
 setDescription("This is a description")
 
@@ -8,12 +8,6 @@ setBackground("textures:colors/purple.png")
 
 setShowToast(false)
 
-setAnnounceToChat(false)
+setAnnounceToChat(true)
 
-addCriteria("breakBlock", "triumph:player_break_block")
-addCriteria("craftItem", "triumph:player_crafted_item")
-addCriteria("enterDimension", "minecraft:changed_dimension")
-addCriteria("inventoryChange", "minecraft:inventory_changed")
-addCriteria("killEntity", "minecraft:player_killed_entity")
-addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
