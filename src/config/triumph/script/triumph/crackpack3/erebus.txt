@@ -1,4 +1,4 @@
-setTitle("AirBNBus!")
+setTitle("AirBNBus")
 
 setIcon(<erebus:umberstone>)
 
@@ -6,6 +6,9 @@ setDescription("Go")
 
 addParent("triumph:crackpack3/nether")
 
+drawDirectLines()
+
 //Criteria
 criteria = addCriteria("entered_nether", "triumph:changed_dimension")
 criteria.setDimensionDestination(66)
+setPos(86,-20)

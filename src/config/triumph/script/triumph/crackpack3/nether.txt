@@ -6,6 +6,9 @@ setDescription("Go")
 
 addParent("triumph:crackpack3/beneath")
 
+drawDirectLines()
+
 //Criteria
 criteria = addCriteria("entered_nether", "triumph:changed_dimension")
 criteria.setDimensionDestination(-1)
+setPos(86,-50)

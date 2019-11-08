@@ -6,8 +6,13 @@ setDescription("This is a description")
 
 setBackground("textures:colors/purple.png")
 
+setFrameType("goal")
+
 setShowToast(false)
 
 setAnnounceToChat(true)
 
 addCriteria("location", "minecraft:location")
+
+pageAlwaysVisible()
+setPos(86,-108)

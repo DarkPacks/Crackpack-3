@@ -1,0 +1,16 @@
+setTitle("End")
+
+setIcon(<minecraft:end_stone>)
+
+setDescription("Go")
+
+addParent("triumph:crackpack3/erebus")
+
+drawDirectLines()
+
+setFrameType("Challenge")
+
+//Criteria
+criteria = addCriteria("entered_nether", "triumph:changed_dimension")
+criteria.setDimensionDestination(1)
+setPos(86,11)
