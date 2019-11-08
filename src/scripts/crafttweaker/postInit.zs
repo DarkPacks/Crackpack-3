@@ -7,21 +7,30 @@
 	modified if you know what you are doing. Changing anything in here could cause
 	potential script failures and game breaking issues.
 */
+import mods.zenstages.ZenStager;
+
 // ==================================
 // Initialize Scripts
+initStaging();
 initItemModifiers();
 initRecipes();
 initIntegration();
+
+// ==================================
+// Build the Stages
+ZenStager.buildAll();
 
 function initRecipes() {
 	scripts.crafttweaker.recipes.hideCategory.init();
 	scripts.crafttweaker.recipes.removeAndHide.init();
 
-
-
 	// Mod Specific Recipes
 	scripts.crafttweaker.recipes.mods.galacticraft.init();
 	scripts.crafttweaker.recipes.mods.forestry.init();
+}
+
+function initStaging() {
+	scripts.crafttweaker.staging.mobs.init();
 }
 
 function initIntegration() {
