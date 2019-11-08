@@ -16,7 +16,7 @@ function init() {
 	];
 
 	for table in tablesToRemove {
-		LootTable.removeTable(tablesToRemove);
+		LootTable.removeTable(table);
 	}
 
 	// Global Items Removal
