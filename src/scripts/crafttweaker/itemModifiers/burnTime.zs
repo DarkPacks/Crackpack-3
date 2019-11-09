@@ -4,4 +4,5 @@
 	This script allows for the modification of burn times for the furnace.
 */
 function init() {
+	furnace.setFuel(<galacticraftplanets:carbon_fragments>, 200);
 }
