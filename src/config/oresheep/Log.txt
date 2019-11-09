@@ -20,6 +20,37 @@ found corporeaFunnel!
 found corporeaInterceptor!
 found corporeaCrystalCube!
 found corporeaRetainer!
+found densemetals:dense_iron_ore!
+found densemetals:dense_diamond_ore!
+found densemetals:dense_redstone_ore!
+found densemetals:dense_emerald_ore!
+found densemetals:dense_coal_ore!
+found densemetals:dense_lapis_ore!
+found densemetals:dense_gold_ore!
+found ebwizardry:crystal_ore!
+found erebus.ore_iron!
+found erebus.ore_gold!
+found erebus.ore_coal!
+found erebus.ore_diamond!
+found erebus.ore_emerald!
+found erebus.ore_lapis!
+found erebus.ore_quartz!
+found erebus.ore_petrified_quartz!
+found erebus.ore_copper!
+found erebus.ore_silver!
+found erebus.ore_tin!
+found erebus.ore_lead!
+found erebus.ore_aluminium!
+found erebus.ore_jade!
+found erebus.ore_encrusted_diamond!
+found erebus.ore_fossil!
+found erebus.ore_gneiss!
+found erebus.ore_petrified_wood!
+found erebus.ore_temple!
+found basic_block_core!
+found basic_block_moon!
+found rftools.dimensional_shard_ore!
+found silentgear.crimson_iron_ore!
 found twilightforest.Log!
 found twilightforest.Roots!
 found twilightforest.Firefly!
@@ -181,36 +212,6 @@ found twilightforest.StonePillarThin!
 found twilightforest.fierymetal!
 found twilightforest.knightmetal!
 found twilightforest.fiery_essence!
-found densemetals:dense_iron_ore!
-found densemetals:dense_diamond_ore!
-found densemetals:dense_redstone_ore!
-found densemetals:dense_emerald_ore!
-found densemetals:dense_coal_ore!
-found densemetals:dense_lapis_ore!
-found densemetals:dense_gold_ore!
-found ebwizardry:crystal_ore!
-found erebus.ore_iron!
-found erebus.ore_gold!
-found erebus.ore_coal!
-found erebus.ore_diamond!
-found erebus.ore_emerald!
-found erebus.ore_lapis!
-found erebus.ore_quartz!
-found erebus.ore_petrified_quartz!
-found erebus.ore_copper!
-found erebus.ore_silver!
-found erebus.ore_tin!
-found erebus.ore_lead!
-found erebus.ore_aluminium!
-found erebus.ore_jade!
-found erebus.ore_encrusted_diamond!
-found erebus.ore_fossil!
-found erebus.ore_gneiss!
-found erebus.ore_petrified_wood!
-found erebus.ore_temple!
-found basic_block_core!
-found basic_block_moon!
-found rftools.dimensional_shard_ore!
 found aroma1997sdimension:miningOre!
 found blockcustomore!
 found blockcustomsandore!
@@ -226,7 +227,63 @@ found thebetweenlands.aqua_middle_gem_ore!
 found thebetweenlands.crimson_middle_gem_ore!
 found thebetweenlands.green_middle_gem_ore!
 Looking for hellrock: found!
+Looking for boneBlock: found!
+Looking for brewingStand: found!
+Looking for cactus: found!
+Looking for cake: found!
+Looking for chisel.basalt:3 of chisel.basalt found!
+Looking for chisel.limestone:3 of chisel.limestone found!
+Looking for chisel.marble:3 of chisel.marble found!
+Looking for clay: found!
+Looking for doorAcacia: found!
+Looking for doorBirch: found!
+Looking for doorDarkOak: found!
+Looking for doorIron: found!
+Looking for doorJungle: found!
+Looking for doorOak: found!
+Looking for doorSpruce: found!
+Looking for farmland: found!
+Looking for fence:2 of fence found!
+Looking for furnace:2 of furnace found!
+Looking for glass: found!
+Looking for grass:2 of grass found!
+Looking for hayBlock: found!
+Looking for ice: found!
+Looking for ichunutil.block.compactporkchop: found!
+Looking for jukebox: found!
+Looking for log:14 of log found!
+Looking for magma: found!
+Looking for melon: found!
+Looking for mycel: found!
+Looking for notGate:2 of notGate found!
+Looking for petalBlock: found!
+Looking for prismarine: found!
+Looking for pumpkin: found!
+Looking for rats.block_of_cheese: found!
+Looking for seaLantern: found!
+Looking for slime: found!
+Looking for snow:2 of snow found!
+Looking for sponge: found!
+Looking for stairsBrick: found!
 Looking for stairsStone: found!
+Looking for stairsWood: found!
+Looking for tnt: found!
+Looking for torch: found!
+Looking for woolCarpet: found!
+Looking for workbench: found!
+Looking for chisel.antiblock: found!
+Looking for modern_tv: found!
+Looking for modern_couch: found!
+Looking for modern_chair: found!
+Looking for modern_coffee_table: found!
+Looking for traffic_cone: found!
+Looking for clickmachine.auto_clicker: found!
+Looking for toilet: found!
+Looking for well: found!
+Looking for pistonStickyBase: found!
+Looking for pistonBase:2 of pistonBase found!
+Looking for chance_cube: found!
+Looking for stairsStone: found! stairsStone is in the be blocks and eat blocks sections. Please remove it from one of them.
 Looking for stoneSlab: found!
 Looking for button: found!
 Looking for pressurePlateStone: found!
