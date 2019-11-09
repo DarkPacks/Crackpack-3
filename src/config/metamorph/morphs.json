@@ -1,6 +1,456 @@
 {
-  "astralsorcery:entityflare": {
-    "abilities": ["fly"],
+  "minecraft:wither": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 20,
+    "speed": 0.05
+  },
+  "biomesoplenty:wasp": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "botania:pixie": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 2,
+    "speed": 0.08
+  },
+  "erebus:erebus.bot_fly": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 2,
+    "speed": 0.08
+  },
+  "erebus:erebus.fly": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 2,
+    "speed": 0.08
+  },
+  "erebus:erebus.midge_swarm": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "erebus:erebus.mosquito": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "erebus:erebus.moth": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "erebus:erebus.wasp": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "erebus:erebus.worker_bee": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "forestry:butterflyge": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "mowziesmobs:lantern": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "pneumaticraft:drone": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "pneumaticraft:harvesting_drone": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "pneumaticraft:logistic_drone": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "rats:ratlantean_spirit": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "thebetweenlands:dragonfly": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "thebetweenlands:firefly": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "thermalfoundation:basalz": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "thermalfoundation:blitz": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "thermalfoundation:blizz": {
+    "action": [
+      "snowball"
+    ],
+    "health": 10,
+    "speed": 0.08
+  },
+  "twilightforest:tower_ghast": {
+    "abilities": [
+      "fly",
+      "fire_proof"
+    ],
+    "action": [
+      "fireball"
+    ],
+    "health": 8,
+    "speed": 0.05
+  },
+  "twilightforest:mini_ghast": {
+    "abilities": [
+      "fly",
+      "fire_proof"
+    ],
+    "action": [
+      "fireball"
+    ],
+    "health": 6,
+    "speed": 0.05
+  },
+  "twilightforest:firefly": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "twilightforest:snow_queen": {
+    "abilities": [
+      "fly",
+      "snow_walk"
+    ],
+    "action": [
+      "snowball"
+    ],
+    "health": 20,
+    "speed": 0.08
+  },
+  "twilightforest:wraith": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.08
+  },
+  "ultimate_unicorn_mod:reindeer": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.11
+  },
+  "ultimate_unicorn_mod:alea": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.11
+  },
+  "ultimate_unicorn_mod:asmidiske": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.11
+  },
+  "ultimate_unicorn_mod:hippocamp": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.11
+  },
+  "ultimate_unicorn_mod:kirin": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.11
+  },
+  "ultimate_unicorn_mod:pegasus": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.11
+  },
+  "ultimate_unicorn_mod:typhon": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.11
+  },
+  "ultimate_unicorn_mod:velvet": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 6,
+    "speed": 0.11
+  },
+  "twilightforest:tiny_bird": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 3,
+    "speed": 0.08
+  },
+  "twilightforest:raven": {
+    "abilities": [
+      "fly"
+    ],
+    "health": 3,
+    "speed": 0.08
+  },
+  "galacticraftcore:evolved_creeper": {
+    "action": [
+      "explode"
+    ],
+    "health": 10,
+    "speed": 0.09
+  },
+  "galacticraftcore:creeper_boss": {
+    "action": [
+      "explode"
+    ],
+    "health": 10,
+    "speed": 0.09
+  },
+  "galacticraftcore:evolved_spider": {
+    "abilities": [
+      "climb"
+    ],
+    "health": 10
+  },
+  "galacticraftplanets:juicer": {
+    "abilities": [
+      "climb"
+    ],
+    "health": 6
+  },
+  "galacticraftplanets:spider_queen": {
+    "abilities": [
+      "climb"
+    ],
+    "health": 20,
+    "speed": 0.075
+  },
+  "erebus:erebus.tarantula": {
+    "abilities": [
+      "climb"
+    ],
+    "health": 14,
+    "speed": 0.095
+  },
+  "erebus:erebus.tarantula_baby": {
+    "abilities": [
+      "climb"
+    ],
+    "health": 6
+  },
+  "twilightforest:tower_broodling": {
+    "abilities": [
+      "climb"
+    ],
+    "health": 6
+  },
+  "twilightforest:hedge_spider": {
+    "abilities": [
+      "climb"
+    ],
+    "health": 8
+  },
+  "twilightforest:swarm_spider": {
+    "abilities": [
+      "climb"
+    ],
+    "health": 8
+  },
+  "galacticraftplanets:evolved_witch": {
+    "action": [
+      "potions"
+    ],
+    "health": 16
+  },
+  "rats:plague_doctor": {
+    "action": [
+      "potions"
+    ],
+    "health": 14
+  },
+  "galacticraftplanets:evolved_enderman": {
+    "abilities": [
+      "water_allergy"
+    ],
+    "action": [
+      "teleport"
+    ],
+    "health": 18
+  },
+  "thebetweenlands:dark_druid": {
+    "action": [
+      "teleport"
+    ],
+    "health": 18,
+    "speed": 0.08
+  },
+  "twilightforest:fire_beetle": {
+    "abilities": [
+      "fire_proof"
+    ],
+    "health": 8
+  },
+  "rats:pirat_boat": {
+    "action": [
+      "fireball"
+    ],
+    "health": 22
+  },
+  "galacticraftcore:evolved_skeleton": {
+    "abilities": [
+      "hungerless"
+    ],
     "health": 1
+  },
+  "erebus:erebus.fire_ant": {
+    "abilities": [
+      "fire_proof"
+    ],
+    "health": 6
+  },
+  "erebus:erebus.fire_ant_soldier": {
+    "abilities": [
+      "fire_proof"
+    ],
+    "health": 6
+  },
+  "ultimate_unicorn_mod:nightmare": {
+    "abilities": [
+      "fire_proof",
+      "fly"
+    ],
+    "health": 16,
+    "speed": 0.11
+  },
+  "thebetweenlands:emberling": {
+    "abilities": [
+      "fire_proof"
+    ],
+    "health": 6
+  },
+  "thebetweenlands:emberling_shaman": {
+    "action": [
+      "small_fireball"
+    ],
+    "health": 4
+  },
+  "twilightforest:death_tome": {
+    "action": [
+      "small_fireball"
+    ],
+    "health": 4,
+    "speed": 0.08
+  },
+  "twilightforest:skeleton_druid": {
+    "action": [
+      "small_fireball"
+    ],
+    "health": 8
+  },
+  "thebetweenlands:angler": {
+    "abilities": [
+      "water_breath",
+      "swim"
+    ],
+    "health": 8
+  },
+  "thebetweenlands:lurker": {
+    "abilities": [
+      "water_breath",
+      "swim"
+    ],
+    "health": 8
+  },
+  "thebetweenlands:frog": {
+    "abilities": [
+      "water_breath",
+      "swim"
+    ],
+    "health": 8
+  },
+  "twilightforest:yeti": {
+    "action": [
+      "snowball"
+    ],
+    "health": 16,
+    "speed": 0.075
+  },
+  "mowziesmobs:frostmaw": {
+    "action": [
+      "snowball"
+    ],
+    "health": 20,
+    "speed": 0.075
   }
 }
