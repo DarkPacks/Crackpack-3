@@ -16,11 +16,15 @@ function init() {
 	];
 
 	for table in tablesToRemove {
-		LootTable.removeTable(tablesToRemove);
+		LootTable.removeTable(table);
 	}
 
 	// Global Items Removal
 	var globalItemsToRemove as string[] = [
+		"minecraft:wheat",
+		"minecraft:coal",
+		"minecraft:bone",
+		"minecraft:rotten_flesh"
 	];
 
 	for globalItem in globalItemsToRemove {
