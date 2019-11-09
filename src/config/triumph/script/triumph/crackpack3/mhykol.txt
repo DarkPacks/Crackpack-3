@@ -1,0 +1,15 @@
+setTitle("Who?")
+
+setIcon(<harvestcraft:crackersitem>)
+
+setDescription("Who?")
+
+addParent("triumph:crackpack3/root")
+
+hideLines()
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+player = criteria.getPlayerData()
+player.setName("Mhykol")

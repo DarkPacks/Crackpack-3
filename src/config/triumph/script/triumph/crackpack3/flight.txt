@@ -2,7 +2,7 @@ setTitle("Flight")
 
 setIcon(<minecraft:feather>)
 
-setDescription("Some types of flight in the pack, such as the flight ability on various Metamorph morphs, are locked behind The End. Leave through the exit portal to unlock! Watch out for that pesky dragon.")
+setDescription("Some types of flight in the pack, such as the flight ability on various Metamorph morphs, are locked behind The End. Travel through an End Gateway to unlock. Watch out for that pesky dragon!")
 
 addParent("triumph:crackpack3/root")
 
