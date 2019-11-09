@@ -2,7 +2,7 @@
   "images": {
     "title": {
       "image": "crackpack_3:textures/gui/title/background/text.png",
-      "posX": -100,
+      "posX": -101,
       "posY": -170,
       "width": 200,
       "height": 200,
@@ -119,7 +119,7 @@
   },
   "other": {
     "background": {
-      "image": "crackpack_3:textures/gui/title/background/BG_new.png",
+      "image": "crackpack_3:textures/gui/title/background/BG_new_darker.png",
       "mode": "stretch"
     }
   }

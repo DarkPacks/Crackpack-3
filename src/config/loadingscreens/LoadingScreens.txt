@@ -1,4 +1,4 @@
-background = addStretchedTexture("top_left", "crackpack_3:textures/gui/title/background/BG_new.png")
+background = addStretchedTexture("top_left", "crackpack_3:textures/gui/title/background/BG_new_darker.png")
 background.setRelRender(1, 1)
 
 tips = addRandomText("top_left")
