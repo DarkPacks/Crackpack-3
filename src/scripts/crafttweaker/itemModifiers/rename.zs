@@ -6,6 +6,8 @@
 import crafttweaker.item.IItemStack;
 
 static renameMap as string[IItemStack] = {
+	<harvestcraft:bubblywateritem>: "Wig Water",
+	<thermalfoundation:wrench>: "Crescent Hammer (Wrench)"
 };
 
 function init() {
