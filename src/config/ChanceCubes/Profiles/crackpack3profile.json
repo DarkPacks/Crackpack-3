@@ -1,0 +1,482 @@
+{
+    "initial_profile": {
+        "name": "Initial Profile",
+        "description": "Profile that is auto enabled at the start of the pack.",
+        "rewards_to_disable": [
+            "chancecubes:Beacon_Arena",
+            "chancecubes:BioDome",
+            "chancecubes:Block_Thrower",
+            "chancecubes:Chuck_Reverse",
+            "chancecubes:Chunk_Flip",
+            "chancecubes:Firework_Show",
+            "chancecubes:Floor_Is_Lava",
+            "chancecubes:Fluid_Sphere",
+            "chancecubes:Mixed_Fluid_Sphere",
+            "chancecubes:Ore_Pillars",
+            "chancecubes:Ore_Sphere",
+            "chancecubes:Raining_Potions",
+            "chancecubes:Random_Explosion",
+            "chancecubes:Sphere_Snake",
+            "chancecubes:TNT_Throw",
+            "chancecubes:Throwables",
+            "chancecubes:Village",
+            "chancecubes:Woodland_Mansion",
+            "chancecubes:World_Infection",
+            "chancecubes:Actual_Invisible_Ghast",
+            "chancecubes:Anti_Slab",
+            "chancecubes:Bedrock",
+            "chancecubes:Bone_Cat",
+            "chancecubes:Book_of_Memes",
+            "chancecubes:CARPET!",
+            "chancecubes:Chance_Cube_Cube",
+            "chancecubes:Chat_Message",
+            "chancecubes:Clear_Inventory",
+            "chancecubes:Cube_Rename",
+            "chancecubes:DIY_Pie",
+            "chancecubes:Did_You_Know",
+            "chancecubes:Farmer",
+            "chancecubes:Fighter",
+            "chancecubes:Explorer",
+            "chancecubes:Fire_Aspect_Fire",
+            "chancecubes:Fish_Dog",
+            "chancecubes:Giant_Chance_Cube",
+            "chancecubes:Have_Another",
+            "chancecubes:Help_Me",
+            "chancecubes:Hot_Tub",
+            "chancecubes:Invisible_Ghasts",
+            "chancecubes:Item_Chest",
+            "chancecubes:Item_Rename",
+            "chancecubes:Juke_Box",
+            "chancecubes:Lava_Ring",
+            "chancecubes:Nuke",
+            "chancecubes:One_Man_Army",
+            "chancecubes:One_Shot",
+            "chancecubes:Path_To_Succeed",
+            "chancecubes:Poison",
+            "chancecubes:Pssst",
+            "chancecubes:Question",
+            "chancecubes:Rain",
+            "chancecubes:Rancher",
+            "chancecubes:Random_Teleport",
+            "chancecubes:Redstone_Diamond",
+            "chancecubes:Rotten_Food",
+            "chancecubes:Sky_Block",
+            "chancecubes:SpongeBob_SquarePants",
+            "chancecubes:Squid_Horde",
+            "chancecubes:TNT_Cat",
+            "chancecubes:Torches_To_Creepers",
+            "chancecubes:Trampoline",
+            "chancecubes:Traveller",
+            "chancecubes:Witch",
+            "chancecubes:Wither",
+            "chancecubes:Wool",
+            "chancecubes:Bookshelves"
+        ],
+        "reward_properties": [
+            {
+                "reward_name": "chancecubes:Ender_Crystal_Timer",
+                "chance_value": -90
+            },
+            {
+                "reward_name": "chancecubes:Surrounded_Creeper",
+                "chance_value": -85
+            },
+            {
+                "reward_name": "chancecubes:Herobrine",
+                "chance_value": -65
+            },
+            {
+                "reward_name": "chancecubes:Quidditch",
+                "chance_value": -65
+            },
+            {
+                "reward_name": "chancecubes:XP_Crystal",
+                "chance_value": -60
+            },
+            {
+                "reward_name": "chancecubes:Inventory_Bomb",
+                "chance_value": -55
+            },
+            {
+                "reward_name": "chancecubes:Skeleton_Bats",
+                "chance_value": -50
+            },
+            {
+                "reward_name": "chancecubes:TNT_Bats",
+                "chance_value": -50
+            },
+            {
+                "reward_name": "chancecubes:Anvil_Rain",
+                "chance_value": -45
+            },
+            {
+                "reward_name": "chancecubes:Invizible_Silverfish",
+                "chance_value": -45
+            },
+            {
+                "reward_name": "chancecubes:Surrounded",
+                "chance_value": -45
+            },
+            {
+                "reward_name": "chancecubes:Saw_Nothing_Diamond",
+                "chance_value": -45
+            },
+            {
+                "reward_name": "chancecubes:Charged_Creeper",
+                "chance_value": -40
+            },
+            {
+                "reward_name": "chancecubes:Nether_Jelly_Fish",
+                "chance_value": -40
+            },
+            {
+                "reward_name": "chancecubes:No_Exp",
+                "chance_value": -40
+            },
+            {
+                "reward_name": "chancecubes:Knockback_Zombie",
+                "chance_value": -35
+            },
+            {
+                "reward_name": "chancecubes:TNT_Diamond",
+                "chance_value": -35
+            },
+            {
+                "reward_name": "chancecubes:Thrown_In_Air",
+                "chance_value": -35
+            },
+            {
+                "reward_name": "chancecubes:Cave_Spider_Web",
+                "chance_value": -35
+            },
+            {
+                "reward_name": "chancecubes:Half_Heart",
+                "chance_value": -30
+            },
+            {
+                "reward_name": "chancecubes:Invisible_Creeper",
+                "chance_value": -30
+            },
+            {
+                "reward_name": "chancecubes:Math",
+                "chance_value": -30
+            },
+            {
+                "reward_name": "chancecubes:Tnt_Structure",
+                "chance_value": -30
+            },
+            {
+                "reward_name": "chancecubes:Wait_For_It",
+                "chance_value": -30
+            },
+            {
+                "reward_name": "chancecubes:Slime_Man",
+                "chance_value": -30
+            },
+            {
+                "reward_name": "chancecubes:Horde",
+                "chance_value": -25
+            },
+            {
+                "reward_name": "chancecubes:Maze",
+                "chance_value": -25
+            },
+            {
+                "reward_name": "chancecubes:Wither_Status_Effect",
+                "chance_value": -25
+            },
+            {
+                "reward_name": "chancecubes:Guardians",
+                "chance_value": -25
+            },
+            {
+                "reward_name": "chancecubes:Silverfish_Surround",
+                "chance_value": -20
+            },
+            {
+                "reward_name": "chancecubes:Troll_Hole",
+                "chance_value": -20
+            },
+            {
+                "reward_name": "chancecubes:Wolves_To_Creepers",
+                "chance_value": -20
+            },
+            {
+                "reward_name": "chancecubes:Silvermite_Stacks",
+                "chance_value": -15
+            },
+            {
+                "reward_name": "chancecubes:5_Prongs",
+                "chance_value": -10
+            },
+            {
+                "reward_name": "chancecubes:D-rude_SandStorm",
+                "chance_value": -10
+            },
+            {
+                "reward_name": "chancecubes:Ice_Cold",
+                "chance_value": -10
+            },
+            {
+                "reward_name": "chancecubes:Lingering_Potions_Ring",
+                "chance_value": -10
+            },
+            {
+                "reward_name": "chancecubes:Smite",
+                "chance_value": -10
+            },
+            {
+                "reward_name": "chancecubes:Arrow_Spray",
+                "chance_value": -5
+            },
+            {
+                "reward_name": "chancecubes:Arrow_Trap",
+                "chance_value": -5
+            },
+            {
+                "reward_name": "chancecubes:Cookie_Monster",
+                "chance_value": -5
+            },
+            {
+                "reward_name": "chancecubes:Dig_Build_Reward",
+                "chance_value": -5
+            },
+            {
+                "reward_name": "chancecubes:Troll_TNT",
+                "chance_value": -5
+            },
+            {
+                "reward_name": "chancecubes:Watch_World_Burn",
+                "chance_value": -5
+            },
+            {
+                "reward_name": "chancecubes:Explosion",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:Fake_TNT",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:Fireworks",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:Hearts",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:Matching",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:Mob_Tower",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:Monty_Hall",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:No",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:One_Is_Lucky",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:Random_Status_Effect",
+                "chance_value": 0
+            },
+            {
+                "reward_name": "chancecubes:Icsahedron",
+                "chance_value": 5
+            },
+            {
+                "reward_name": "chancecubes:Table_Flip",
+                "chance_value": 5
+            },
+            {
+                "reward_name": "chancecubes:Tic_Tac_Toe",
+                "chance_value": 5
+            },
+            {
+                "reward_name": "chancecubes:Heads_or_Tails",
+                "chance_value": 5
+            },
+            {
+                "reward_name": "chancecubes:STRING!",
+                "chance_value": 7
+            },
+            {
+                "reward_name": "chancecubes:Half_Fishingrod",
+                "chance_value": 10
+            },
+            {
+                "reward_name": "chancecubes:Sail_Away",
+                "chance_value": 10
+            },
+            {
+                "reward_name": "chancecubes:Finding_Marlin",
+                "chance_value": 10
+            },
+            {
+                "reward_name": "chancecubes:Finding_Nemo",
+                "chance_value": 10
+            },
+            {
+                "reward_name": "chancecubes:Cats_And_Dogs",
+                "chance_value": 15
+            },
+            {
+                "reward_name": "chancecubes:Countdown",
+                "chance_value": 15
+            },
+            {
+                "reward_name": "chancecubes:Double_Rainbow",
+                "chance_value": 15
+            },
+            {
+                "reward_name": "chancecubes:Pig_Of_Destiny",
+                "chance_value": 15
+            },
+            {
+                "reward_name": "chancecubes:Cake",
+                "chance_value": 20
+            },
+            {
+                "reward_name": "chancecubes:Want_To_Build_A_Snowman",
+                "chance_value": 25
+            },
+            {
+                "reward_name": "chancecubes:Sethbling_Reward",
+                "chance_value": 30
+            },
+            {
+                "reward_name": "chancecubes:Cookie-splosion",
+                "chance_value": 35
+            },
+            {
+                "reward_name": "chancecubes:Saplings",
+                "chance_value": 35
+            },
+            {
+                "reward_name": "chancecubes:Armor_Stand_Armor",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:Disco",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:EXP",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:EXP_Shower",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:Item_Of_Destiny",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:Spawn_Cluckington",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:Spawn_Dr_Trayaurus",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:Spawn_Glenn",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:Spawn_Jerry",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:Spawn_Pickles",
+                "chance_value": 40
+            },
+            {
+                "reward_name": "chancecubes:Cuteness",
+                "chance_value": 45
+            },
+            {
+                "reward_name": "chancecubes:Mitas",
+                "chance_value": 50
+            },
+            {
+                "reward_name": "chancecubes:Ores_Galore",
+                "chance_value": 50
+            },
+            {
+                "reward_name": "chancecubes:Take_This",
+                "chance_value": 55
+            },
+            {
+                "reward_name": "chancecubes:Coal_To_Diamonds",
+                "chance_value": 60
+            },
+            {
+                "reward_name": "chancecubes:Giga_Breaker",
+                "chance_value": 70
+            },
+            {
+                "reward_name": "chancecubes:Notch",
+                "chance_value": 70
+            },
+            {
+                "reward_name": "chancecubes:Roosevelt's_Stick",
+                "chance_value": 70
+            },
+            {
+                "reward_name": "chancecubes:Diamond_Block",
+                "chance_value": 75
+            },
+            {
+                "reward_name": "chancecubes:Enchanting",
+                "chance_value": 80
+            },
+            {
+                "reward_name": "chancecubes:Divine_Boots",
+                "chance_value": 85
+            },
+            {
+                "reward_name": "chancecubes:Divine_Chestplate",
+                "chance_value": 85
+            },
+            {
+                "reward_name": "chancecubes:Divine_Helmet",
+                "chance_value": 85
+            },
+            {
+                "reward_name": "chancecubes:Divine_Leggings",
+                "chance_value": 85
+            },
+            {
+                "reward_name": "chancecubes:Divine_Sword",
+                "chance_value": 85
+            },
+            {
+                "reward_name": "chancecubes:Magic_Feet",
+                "chance_value": 85
+            },
+            {
+                "reward_name": "chancecubes:Hand_Enchant",
+                "chance_value": 90
+            },
+            {
+                "reward_name": "chancecubes:Beacon_Build",
+                "chance_value": 100
+            },
+            {
+                "reward_name": "chancecubes:Nether_Star",
+                "chance_value": 100
+            }
+        ]
+    }
+}
