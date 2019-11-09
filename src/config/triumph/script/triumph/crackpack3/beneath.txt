@@ -2,13 +2,13 @@ setTitle("Beneath!")
 
 setIcon(<beneath:teleporterbeneath>)
 
-setDescription("Go")
+setDescription("To travel to The Beneath, hold a piece of Orange Wool in your hand at the bottom of The Overworld. You can travel back to The Overworld by holding the same item in your hand at the top of The Beneath")
 
-addParent("triumph:crackpack3/root")
+addParent("triumph:crackpack3/dimensions")
 
 drawDirectLines()
 
 //Criteria
 criteria = addCriteria("entered_nether", "triumph:changed_dimension")
 criteria.setDimensionDestination(20)
-setPos(86,-79)
+setPos(174,-77)

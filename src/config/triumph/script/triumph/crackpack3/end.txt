@@ -2,7 +2,7 @@ setTitle("End")
 
 setIcon(<minecraft:end_stone>)
 
-setDescription("Go")
+setDescription("To travel to The End, hold a piece of Gray Wool in your hand at the bottom of The Erebus. There is no way back.")
 
 addParent("triumph:crackpack3/erebus")
 
@@ -13,4 +13,4 @@ setFrameType("Challenge")
 //Criteria
 criteria = addCriteria("entered_nether", "triumph:changed_dimension")
 criteria.setDimensionDestination(1)
-setPos(86,11)
+setPos(174,16)

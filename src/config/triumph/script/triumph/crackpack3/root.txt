@@ -2,7 +2,7 @@ setIcon(<harvestcraft:crackeritem>)
 
 setTitle("Crackpack 3!")
 
-setDescription("This is a description")
+setDescription({"text":"Welcome to CrackPack 3, the greatest modpack ever made on a 7 day streamathon. Thank you to everyone who donated to the Mindcrack 2019 Extra Life Marathon to unlock this as an incentive.","extra":[{"text":" <3","color":"red","bold":true}]})
 
 setBackground("textures:colors/purple.png")
 
@@ -12,7 +12,10 @@ setShowToast(false)
 
 setAnnounceToChat(true)
 
+setCompletedIconColor(6570404)
+setCompletedTitleColor(6570404)
+
 addCriteria("location", "minecraft:location")
 
 pageAlwaysVisible()
-setPos(86,-108)
+setPos(50,-108)

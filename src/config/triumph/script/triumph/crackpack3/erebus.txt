@@ -2,7 +2,7 @@ setTitle("AirBNBus")
 
 setIcon(<erebus:umberstone>)
 
-setDescription("Go")
+setDescription("To travel to The Erebus, hold a piece of Light Blue Wool in your hand at the bottom of The Nether. You can travel back to The Nether by holding the same item in your hand at the top of The Erebus")
 
 addParent("triumph:crackpack3/nether")
 
@@ -11,4 +11,4 @@ drawDirectLines()
 //Criteria
 criteria = addCriteria("entered_nether", "triumph:changed_dimension")
 criteria.setDimensionDestination(66)
-setPos(86,-20)
+setPos(174,-15)

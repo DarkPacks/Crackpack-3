@@ -2,7 +2,7 @@ setTitle("Nether!")
 
 setIcon(<minecraft:netherrack>)
 
-setDescription("Go")
+setDescription("To travel to The Nether, hold a piece of Magenta Wool in your hand at the bottom of The Beneath. You can travel back to The Beneath by holding the same item in your hand at the top of The Nether")
 
 addParent("triumph:crackpack3/beneath")
 
@@ -11,4 +11,4 @@ drawDirectLines()
 //Criteria
 criteria = addCriteria("entered_nether", "triumph:changed_dimension")
 criteria.setDimensionDestination(-1)
-setPos(86,-50)
+setPos(174,-46)

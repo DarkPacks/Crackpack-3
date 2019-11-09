@@ -1,7 +1,7 @@
 
 setIcon("minecraft:end_stone")
 setTranslatedTitle("advancements.story.enter_the_end.title")
-setTranslatedDescription("advancements.story.enter_the_end.description")
+setTranslatedDescription("Enter the End")
 
 addParent("triumph:vanilla/story/follow_ender_eye")
 
