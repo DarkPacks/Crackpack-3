@@ -24,7 +24,11 @@ function init() {
 		"minecraft:wheat",
 		"minecraft:coal",
 		"minecraft:bone",
-		"minecraft:rotten_flesh"
+		"minecraft:rotten_flesh",
+		"minecraft:gold_ingot",
+		"minecraft:redstone",
+		"minecraft:iron_ingot"
+
 	];
 
 	for globalItem in globalItemsToRemove {
