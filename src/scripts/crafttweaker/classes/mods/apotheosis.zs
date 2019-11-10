@@ -17,9 +17,6 @@ zenClass Apotheosis {
 		BossArmor.addArmorSet(level, setName, mainhand, offhand, feet, legs, chest, head);
 	}
 
-	function removeBossArmorSet(level as int) {
-		BossArmor.removeArmorSet(level);
-	}
 	function removeBossArmorSet(setName as string) {
 		BossArmor.removeSet(setName);
 	}
