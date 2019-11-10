@@ -34,6 +34,8 @@ function init() {
 
 			if (clearResource) {
 				preferredItem = null;
+				cleanOreDict = true;
+				hideRemoved = true;
 			}
 
 			unifier.unify(resource.partsOredict[partName], preferredItem, resource.liquid, hideRemoved, removePreferredItemRecipes, cleanOreDict);
