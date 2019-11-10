@@ -1,8 +1,8 @@
-setTitle("End")
+setTitle("The End Justifies the Memes")
 
-setIcon(<minecraft:end_stone>)
+setIcon(<dimstack:key:3>)
 
-setDescription("To travel to The End, hold a piece of Gray Wool in your hand at the bottom of The Erebus. There is no way back.")
+setDescription("To create a portal to The End, hold the correct §0Dimensional Key §7in your hand and Right-Click on Bedrock at the bottom of The Erebus Dimension. You can travel back to the Overworld once the Dragon is defeated")
 
 addParent("triumph:crackpack3/erebus")
 

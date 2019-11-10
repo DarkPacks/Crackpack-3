@@ -1,8 +1,8 @@
-setTitle("AirBNBus")
+setTitle("This Bugs Me")
 
-setIcon(<erebus:umberstone>)
+setIcon(<dimstack:key:2>)
 
-setDescription("To travel to The Erebus, hold a piece of Light Blue Wool in your hand at the bottom of The Nether. You can travel back to The Nether by holding the same item in your hand at the top of The Erebus")
+setDescription("To create a portal to The Erebus, hold the correct §2Dimensional Key §7in your hand and Right-Click on Bedrock at the bottom of The Nether Dimension")
 
 addParent("triumph:crackpack3/nether")
 

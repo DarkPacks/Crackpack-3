@@ -1,8 +1,8 @@
-setTitle("Beneath!")
+setTitle("Into the Shadows")
 
-setIcon(<beneath:teleporterbeneath>)
+setIcon(<dimstack:key:0>)
 
-setDescription("To travel to The Beneath, hold a piece of Orange Wool in your hand at the bottom of The Overworld. You can travel back to The Overworld by holding the same item in your hand at the top of The Beneath")
+setDescription("To create a portal to The Beneath, hold the correct §5Dimensional Key §7in your hand and Right-Click on Bedrock at the bottom of the Overworld Dimension")
 
 addParent("triumph:crackpack3/dimensions")
 

@@ -2,7 +2,7 @@ setTitle("Dimensions")
 
 setIcon(<rats:ratlantis_portal>)
 
-setDescription("Some dimensions in the pack, such as the Nether and the End, can only be accessed using the Stacked Dimensions mod.")
+setDescription("Some dimensions in the pack, such as the Nether and the End, can only be accessed using the Stacked Dimensions mod")
 
 addParent("triumph:crackpack3/root")
 

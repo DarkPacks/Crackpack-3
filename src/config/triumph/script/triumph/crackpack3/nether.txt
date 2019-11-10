@@ -1,8 +1,8 @@
-setTitle("Nether!")
+setTitle("Nether Gonna Give You Up")
 
-setIcon(<minecraft:netherrack>)
+setIcon(<dimstack:key:1>)
 
-setDescription("To travel to The Nether, hold a piece of Magenta Wool in your hand at the bottom of The Beneath. You can travel back to The Beneath by holding the same item in your hand at the top of The Nether")
+setDescription("To create a portal to The Nether, hold the correct §4Dimensional Key §7in your hand and Right-Click on Bedrock at the bottom of The Beneath Dimension")
 
 addParent("triumph:crackpack3/beneath")
 
