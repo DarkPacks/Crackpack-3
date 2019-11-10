@@ -27,8 +27,8 @@ function initRecipes() {
 	// Mod Specific Recipes
 	scripts.crafttweaker.recipes.mods.galacticraft.init();
 	scripts.crafttweaker.recipes.mods.forestry.init();
-	scripts.crafttweaker.recipes.mods.thermalfoundation.init();	
-	scripts.crafttweaker.recipes.mods.reliquary.init();        		
+	scripts.crafttweaker.recipes.mods.thermalfoundation.init();
+	scripts.crafttweaker.recipes.mods.reliquary.init();
 }
 
 function initStaging() {
