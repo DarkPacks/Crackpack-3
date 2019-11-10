@@ -197,56 +197,56 @@
     "abilities": [
       "fly"
     ],
-    "health": 6,
+    "health": 8,
     "speed": 0.11
   },
   "ultimate_unicorn_mod:alea": {
     "abilities": [
       "fly"
     ],
-    "health": 6,
+    "health": 10,
     "speed": 0.11
   },
   "ultimate_unicorn_mod:asmidiske": {
     "abilities": [
       "fly"
     ],
-    "health": 6,
+    "health": 10,
     "speed": 0.11
   },
   "ultimate_unicorn_mod:hippocamp": {
     "abilities": [
       "fly"
     ],
-    "health": 6,
+    "health": 10,
     "speed": 0.11
   },
   "ultimate_unicorn_mod:kirin": {
     "abilities": [
       "fly"
     ],
-    "health": 6,
+    "health": 10,
     "speed": 0.11
   },
   "ultimate_unicorn_mod:pegasus": {
     "abilities": [
       "fly"
     ],
-    "health": 6,
+    "health": 10,
     "speed": 0.11
   },
   "ultimate_unicorn_mod:typhon": {
     "abilities": [
       "fly"
     ],
-    "health": 6,
+    "health": 10,
     "speed": 0.11
   },
   "ultimate_unicorn_mod:velvet": {
     "abilities": [
       "fly"
     ],
-    "health": 6,
+    "health": 10,
     "speed": 0.11
   },
   "twilightforest:tiny_bird": {
