@@ -10,5 +10,5 @@ drawDirectLines()
 
 //Criteria
 criteria = addCriteria("entered_nether", "triumph:changed_dimension")
-criteria.setDimensionDestination(20)
+criteria.setDimensionDestination(10)
 setPos(174,-77)
