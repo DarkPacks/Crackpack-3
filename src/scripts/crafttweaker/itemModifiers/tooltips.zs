@@ -120,7 +120,29 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<enderio:item_refined_storage_conduit>: [
 		format.red("Usage: Refined Storage Pipe")
+	],
+
+	<dimstack:key>: [
+		format.red("Key to The Beneath Dimension"),
+		format.red("Right-Click on Bedrock to open a Portal"),
+		format.red("From the bottom of The Overworld Dimension")
+	],
+	<dimstack:key:1>: [
+		format.red("Key to The Nether Dimension"),
+		format.red("Right-Click on Bedrock to open a Portal"),
+		format.red("From the bottom of The Beneath Dimension")
+	],
+	<dimstack:key:2>: [
+		format.red("Key to The Erebus Dimension"),
+		format.red("Right-Click on Bedrock to open a Portal"),
+		format.red("From the bottom of The Nether Dimension")
+	],
+	<dimstack:key:3>: [
+		format.red("Key to The End Dimension"),
+		format.red("Right-Click on Bedrock to open a Portal"),
+		format.red("From the bottom of The Erebus Dimension")
 	]
+
 };
 
 function init() {

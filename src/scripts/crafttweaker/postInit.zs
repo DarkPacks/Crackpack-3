@@ -29,6 +29,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.forestry.init();
 	scripts.crafttweaker.recipes.mods.thermalfoundation.init();
 	scripts.crafttweaker.recipes.mods.reliquary.init();
+	scripts.crafttweaker.recipes.mods.dimstack.init();
 }
 
 function initStaging() {
