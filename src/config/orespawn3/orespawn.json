@@ -3,7 +3,7 @@
 	"spawns": {
 		"quartz_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [
@@ -28,7 +28,7 @@
 		},
 		"coal_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [],
@@ -51,7 +51,7 @@
 		},
 		"iron_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [],
@@ -74,7 +74,7 @@
 		},
 		"gold_ore_standard": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [],
@@ -97,7 +97,7 @@
 		},
 		"gold_ore_mesa": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [],
@@ -120,7 +120,7 @@
 		},
 		"diamond_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "precision",
 			"replaces": "default",
 			"dimensions": [],
@@ -142,7 +142,7 @@
 		},
 		"redstone_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [],
@@ -188,7 +188,7 @@
 		},
 		"emerald_ore": {
 			"retrogen": false,
-			"enabled": true,
+			"enabled": false,
 			"feature": "default",
 			"replaces": "default",
 			"dimensions": [],

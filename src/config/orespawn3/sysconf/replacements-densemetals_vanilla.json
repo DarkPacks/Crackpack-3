@@ -17,11 +17,11 @@
    "replace_redstone_ore": [ { "name": "minecraft:redstone_ore" } ],
    "replace_lapis_ore": [ { "name": "minecraft:lapis_ore" } ],
    "replace_emerald_ore": [ { "name": "minecraft:emerald_ore" } ],
-   "replace_nether_coal_ore": [ { "name": "nethermetals:nether_coal_ore" } ],
-   "replace_nether_iron_ore": [ { "name": "nethermetals:nether_iron_ore" } ],
-   "replace_nether_gold_ore": [ { "name": "nethermetals:nether_gold_ore" } ],
-   "replace_nether_diamond_ore": [ { "name": "nethermetals:nether_diamond_ore" } ],
-   "replace_nether_redstone_ore": [ { "name": "nethermetals:nether_redstone_ore" } ],
-   "replace_nether_lapis_ore": [ { "name": "nethermetals:nether_lapis_ore" } ],
-   "replace_nether_emerald_ore": [ { "name": "nethermetals:nether_emerald_ore" } ]
+   "replace_nether_coal_ore": [ { "name": "minecraft:netherrack" } ],
+   "replace_nether_iron_ore": [ { "name": "minecraft:netherrack" } ],
+   "replace_nether_gold_ore": [ { "name": "minecraft:netherrack" } ],
+   "replace_nether_diamond_ore": [ { "name": "minecraft:netherrack" } ],
+   "replace_nether_redstone_ore": [ { "name": "minecraft:netherrack" } ],
+   "replace_nether_lapis_ore": [ { "name": "minecraft:netherrack" } ],
+   "replace_nether_emerald_ore": [ { "name": "minecraft:netherrack" } ]
 }
