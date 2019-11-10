@@ -1,0 +1,18 @@
+setTitle("You know what to do.")
+
+setIcon(<harvestcraft:crackersitem>)
+
+setDescription("")
+
+addParent("triumph:crackpack3/root")
+
+hideLines()
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Pakratt0013")
+
+addRewardItem(<minecraft:tnt, count:4>)
+addRewardItem(<minecraft:redstone_torch, count:1>)

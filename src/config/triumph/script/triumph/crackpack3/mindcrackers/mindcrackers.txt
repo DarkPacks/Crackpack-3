@@ -1,0 +1,93 @@
+setTitle("Welcome, MindCracker!")
+
+setIcon(<harvestcraft:crackersitem>)
+
+setDescription("Congratulations on raising $1,000,000 for Extra Life! Hope you enjoy the pack! :)")
+
+addParent("triumph:crackpack3/root")
+
+hideLines()
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("adlingtont")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("AnderZEL")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Arkas")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Aureylian")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("AvidyaZEN")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Coestar")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Docm77")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Guude")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("jsano19")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("kurtmac")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("SuperMCGamer")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Mhykol")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Millbee")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Nebris")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("OMGchad")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Pakratt0013")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("PauseUnpause")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Pyrao")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("SethBling")
+
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Sevadus")
+
+setRequirements("any")

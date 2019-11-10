@@ -2,7 +2,7 @@ setTitle("Who?")
 
 setIcon(<harvestcraft:crackersitem>)
 
-setDescription("Who?")
+setDescription("")
 
 addParent("triumph:crackpack3/root")
 

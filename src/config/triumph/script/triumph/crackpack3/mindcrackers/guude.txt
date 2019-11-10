@@ -1,0 +1,17 @@
+setTitle("Looking for this?")
+
+setIcon(<harvestcraft:crackersitem>)
+
+setDescription("")
+
+addParent("triumph:crackpack3/root")
+
+hideLines()
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("Guude")
+
+addRewardItem(<minecraft:record_13, meta:0, count:1>)

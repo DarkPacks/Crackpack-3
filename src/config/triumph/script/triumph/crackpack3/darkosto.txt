@@ -1,8 +1,8 @@
-setTitle("Toasto!")
+setTitle("Roasto!")
 
 setIcon(<harvestcraft:toastitem>)
 
-setDescription("This advancement should only complete for Darkosto. And y'know what, Darko? You're great.")
+setDescription("Hey! Darko! Have some coffee!")
 
 addParent("triumph:crackpack3/root")
 
@@ -14,6 +14,4 @@ criteria = addCriteria("clickedBlock", "triumph:right_click_block")
 player = criteria.getPlayerData()
 player.setName("Darkosto")
 
-setRewardItem(<harvestcraft:coffeeitem>)
-
-setPos(50,-15)
+addRewardItem(<harvestcraft:coffeeitem>)

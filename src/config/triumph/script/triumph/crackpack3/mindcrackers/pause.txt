@@ -1,0 +1,18 @@
+setTitle("#forthehorse")
+
+setIcon(<harvestcraft:crackersitem>)
+
+setDescription("")
+
+addParent("triumph:crackpack3/root")
+
+hideLines()
+alwaysHidden()
+
+//Criteria
+criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+player = criteria.getPlayerData()
+player.setName("PauseUnpause")
+
+addRewardItem(<minecraft:golden_apple, meta:1, count:1>)
+addRewardItem(<minecraft:saddle, meta:0, count:1>)
