@@ -7,6 +7,7 @@
 */
 // Mods
 global alchemistry as scripts.crafttweaker.classes.mods.alchemistry.Alchemistry = scripts.crafttweaker.classes.mods.alchemistry.Alchemistry();
+global apotheosis as scripts.crafttweaker.classes.mods.apotheosis.Apotheosis = scripts.crafttweaker.classes.mods.apotheosis.Apotheosis();
 global enderIO as scripts.crafttweaker.classes.mods.enderIO.EnderIO = scripts.crafttweaker.classes.mods.enderIO.EnderIO();
 global thermalExpansion as scripts.crafttweaker.classes.mods.thermalExpansion.ThermalExpansion = scripts.crafttweaker.classes.mods.thermalExpansion.ThermalExpansion();
 
