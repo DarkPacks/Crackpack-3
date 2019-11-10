@@ -16,7 +16,7 @@ function init() {
 	for resourceName, resource in resources {
 		for partName, partItem in resource.parts {
 			var hideRemoved = true;
-			var removePreferredItemRecipes = true;
+			var removePreferredItemRecipes = false;
 			var cleanOreDict = true;
 
 			if (partName == "ore") {
