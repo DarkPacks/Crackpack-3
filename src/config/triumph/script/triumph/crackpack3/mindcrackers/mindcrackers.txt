@@ -10,47 +10,47 @@ hideLines()
 alwaysHidden()
 
 //Criteria
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("adlingtont", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("adlingtont")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("anderzel", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("AnderZEL")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("arkas", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Arkas")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("aureylian", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Aureylian")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("avidyazen", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("AvidyaZEN")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("coestar", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Coestar")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("docm77", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Docm77")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("guude", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Guude")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("jsano19", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("jsano19")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("kurtmac", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("kurtmac")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("supermcgamer", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("SuperMCGamer")
 
@@ -58,35 +58,35 @@ criteria = addCriteria("clickedBlock", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Mhykol")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("millbee", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Millbee")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("nebris", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Nebris")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("omgchad", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("OMGchad")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("pakratt0013", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Pakratt0013")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("pauseunpause", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("PauseUnpause")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("pyrao", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Pyrao")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("sethbling", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("SethBling")
 
-criteria = addCriteria("clickedBlock", "triumph:left_click_block")
+criteria = addCriteria("sevadus", "triumph:left_click_block")
 player = criteria.getPlayerData()
 player.setName("Sevadus")
 
