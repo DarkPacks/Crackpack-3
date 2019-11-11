@@ -1,0 +1,582 @@
+{
+    "Vintage_Beef": {
+        "chance": 10,
+        "Message": [
+            {
+                "message": "Heh heh, get it? Vintage Beef.... Zombie Flesh...."
+            },
+            {
+                "message": "It's old and rotten meat...",
+                "delay": 20
+            },
+            {
+                "message": "I'll just leave...",
+                "delay": 40
+            }
+        ],
+        "Item": [
+            {
+                "item": {
+                    "id": "minecraft:rotten_flesh",
+                    "Count": 1,
+                    "tag": {
+                        "display": {
+                            "Name": "Vintage Beef"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "Aureylian": {
+        "chance": 25,
+        "Message": [
+            {
+                "message": "<Aureylian> Let there be pink!"
+            }
+        ],
+        "Item": [
+            {
+                "item": {
+                    "id": "minecraft:wool",
+                    "Count": 3,
+                    "Damage": 6
+                }
+            },
+            {
+                "item": {
+                    "id": "minecraft:red_flower",
+                    "Count": 3,
+                    "Damage": 7
+                }
+            },
+            {
+                "item": {
+                    "id": "minecraft:bed",
+                    "Count": 1,
+                    "Damage": 6
+                }
+            },
+            {
+                "item": {
+                    "id": "minecraft:stained_hardened_clay",
+                    "Count": 16,
+                    "Damage": 6
+                }
+            },
+            {
+                "item": {
+                    "id": "minecraft:stained_glass",
+                    "Count": 16,
+                    "Damage": 6
+                }
+            },
+            {
+                "item": {
+                    "id": "minecraft:concrete",
+                    "Count": 16,
+                    "Damage": 6
+                }
+            }
+        ]
+    },
+    "Coestar": {
+        "chance": 5,
+        "Item": [
+            {
+                "item": {
+                    "id": "minecraft:written_book",
+                    "Count": 1,
+                    "tag": {
+                        "title": "Coe's Quest",
+                        "author": "Coestar",
+                        "generation": 0,
+                        "pages": [
+                            "{\"text\": \"World Domination! Muwahahahahahaha!!!   Or was this Nebris'?\",\"color\": \"black\"}"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "Guude": {
+        "chance": 30,
+        "Item": [
+            {
+                "item": {
+                    "id": "minecraft:golden_sword",
+                    "Count": 1,
+                    "tag": {
+                        "display": {
+                            "Name": "Guude's Founder Staff of Power"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "JSano": {
+        "chance": 15,
+        "Message": [
+            {
+                "message": "That cat is stuck up in that tree! Quick someone get JSano!"
+            }
+        ],
+        "Block": [
+            {
+                "xOffSet": 0,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:log"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:log"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 2,
+                "zOffSet": 0,
+                "block": "minecraft:log"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 3,
+                "zOffSet": 0,
+                "block": "minecraft:log"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 4,
+                "zOffSet": 0,
+                "block": "minecraft:log"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 5,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 4,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 4,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 4,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 4,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 4,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 4,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 4,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 4,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 3,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 3,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 3,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 3,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 3,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 3,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 3,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 3,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -2,
+                "yOffSet": 3,
+                "zOffSet": -2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 3,
+                "zOffSet": -2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 3,
+                "zOffSet": -2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 3,
+                "zOffSet": -2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 2,
+                "yOffSet": 3,
+                "zOffSet": -2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -2,
+                "yOffSet": 3,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 3,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 3,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 3,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 2,
+                "yOffSet": 3,
+                "zOffSet": -1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -2,
+                "yOffSet": 3,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 3,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 3,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 2,
+                "yOffSet": 3,
+                "zOffSet": 0,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -2,
+                "yOffSet": 3,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 3,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 3,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 3,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 2,
+                "yOffSet": 3,
+                "zOffSet": 1,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -2,
+                "yOffSet": 3,
+                "zOffSet": 2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": -1,
+                "yOffSet": 3,
+                "zOffSet": 2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 3,
+                "zOffSet": 2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 3,
+                "zOffSet": 2,
+                "block": "minecraft:leaves"
+            },
+            {
+                "xOffSet": 2,
+                "yOffSet": 3,
+                "zOffSet": 2,
+                "block": "minecraft:leaves"
+            }
+        ],
+        "Command": [
+            {
+                "command": "/summon ocelot %x ~6 %z {CatType:1,Sitting:1}"
+            }
+        ]
+    },
+    "KurtJMac": {
+        "chance": 20,
+        "Message": [
+            {
+                "message": "<KurtJMac> All aboard! Next stop: The Far Lands!"
+            }
+        ],
+        "Block": [
+            {
+                "xOffSet": 0,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 1,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 2,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 2,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 3,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 3,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 4,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 4,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 5,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 5,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 6,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 6,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 7,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 7,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 8,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 8,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            },
+            {
+                "xOffSet": 9,
+                "yOffSet": 1,
+                "zOffSet": 0,
+                "block": "minecraft:air"
+            },
+            {
+                "xOffSet": 9,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:rail"
+            }
+        ],
+        "Command": [
+            {
+                "command": "/summon minecart %x ~1 %z"
+            }
+        ]
+    },
+    "MCGamer": {
+        "chance": 10,
+        "Message": [
+            {
+                "message": "Quick, put that out before MCGamer walks through that!"
+            }
+        ],
+        "Block": [
+            {
+                "xOffSet": 0,
+                "yOffSet": -1,
+                "zOffSet": 0,
+                "block": "minecraft:netherrack"
+            },
+            {
+                "xOffSet": 0,
+                "yOffSet": 0,
+                "zOffSet": 0,
+                "block": "minecraft:fire"
+            }
+        ]
+    },
+    "Millbee": {
+        "chance": 10,
+        "Item": [
+            {
+                "item": {
+                    "id": "minecraft:leather_chestplate",
+                    "Count": 1,
+                    "tag": {
+                        "display": {
+                            "Name": "Millbee's Leather Tank Top"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
