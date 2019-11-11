@@ -1,3 +1,7 @@
-§e# Add Your ChangeLog to §c'changelog.txt'§r in the config files
+Please report bugs to the issue tracker!!
 
-You can use Minecrafts §9Color §2Codes §6to§r §nmake your changlogs look Good.
+---------------------------------------------------------------------
+
+3.0.0
+
+* Initial Release!
