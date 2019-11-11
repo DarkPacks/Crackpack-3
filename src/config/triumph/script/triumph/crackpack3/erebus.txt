@@ -2,7 +2,7 @@ setTitle("This Bugs Me")
 
 setIcon(<dimstack:key:2>)
 
-setDescription("To create a portal to The Erebus, hold the correct §2Dimensional Key §7in your hand and Right-Click on Bedrock at the bottom of The Nether Dimension")
+setDescription({"translate":"To create a portal to The %s, hold the correct %s in your hand and %s on Bedrock at the bottom of the %s Dimension","with":["Erebus", {"text":"Dimensional Key","color":"dark_green"}, {"keybind":"key.use"}, "Nether"]})
 
 addParent("triumph:crackpack3/nether")
 

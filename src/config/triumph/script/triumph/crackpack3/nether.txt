@@ -2,7 +2,7 @@ setTitle("Nether Gonna Give You Up")
 
 setIcon(<dimstack:key:1>)
 
-setDescription("To create a portal to The Nether, hold the correct §4Dimensional Key §7in your hand and Right-Click on Bedrock at the bottom of The Beneath Dimension")
+setDescription({"translate":"To create a portal to The %s, hold the correct %s in your hand and %s on Bedrock at the bottom of the %s Dimension","with":["Nether", {"text":"Dimensional Key","color":"dark_red"}, {"keybind":"key.use"}, "Beneath"]})
 
 addParent("triumph:crackpack3/beneath")
 

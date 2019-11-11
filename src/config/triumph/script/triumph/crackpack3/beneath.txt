@@ -2,7 +2,7 @@ setTitle("Into the Shadows")
 
 setIcon(<dimstack:key:0>)
 
-setDescription("To create a portal to The Beneath, hold the correct §5Dimensional Key §7in your hand and Right-Click on Bedrock at the bottom of the Overworld Dimension")
+setDescription({"translate":"To create a portal to The %s, hold the correct %s in your hand and %s on Bedrock at the bottom of the %s Dimension","with":["Beneath", {"text":"Dimensional Key","color":"dark_purple"}, {"keybind":"key.use"}, "Overworld"]})
 
 addParent("triumph:crackpack3/dimensions")
 
