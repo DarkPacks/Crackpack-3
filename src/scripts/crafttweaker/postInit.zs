@@ -25,11 +25,12 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.removeAndHide.init();
 
 	// Mod Specific Recipes
-	scripts.crafttweaker.recipes.mods.galacticraft.init();
-	scripts.crafttweaker.recipes.mods.forestry.init();
-	scripts.crafttweaker.recipes.mods.thermalfoundation.init();
-	scripts.crafttweaker.recipes.mods.reliquary.init();
+	scripts.crafttweaker.recipes.mods.chancecubes.init();	
 	scripts.crafttweaker.recipes.mods.dimstack.init();
+	scripts.crafttweaker.recipes.mods.forestry.init();
+	scripts.crafttweaker.recipes.mods.galacticraft.init();
+	scripts.crafttweaker.recipes.mods.reliquary.init();
+	scripts.crafttweaker.recipes.mods.thermalfoundation.init();
 }
 
 function initStaging() {

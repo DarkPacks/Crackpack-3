@@ -31,7 +31,14 @@ static removeAndHideIngredients as IIngredient[] = [
 	<erebus:altar_offering>,
 	<erebus:portal_activator>,
 	<erebus:materials:38>,
-	<erebus:gaean_keystone>
+	<erebus:gaean_keystone>,
+	//Disabled until I can add recipes
+	<icbmclassic:missile:28>,
+	<icbmclassic:missile:27>,
+	<icbmclassic:missile:25>,
+	<icbmclassic:missile:21>,
+	<icbmclassic:explosives:16>
+
 
 ];
 
