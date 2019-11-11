@@ -1,0 +1,4 @@
+Crackpack = registerPreset("Crackpack 3", "images/World", "Let's get Cracking!", "RTG")
+
+setAsDefaultWorldType()
+printDocumentation(false)
