@@ -8,7 +8,7 @@ Created by the development team of many popular modpacks such as Sky Factory 3, 
 
 Crack it open by yourself or invite some friends to join in the adventure.
 
-Thank you to everyone who helped make this modpack possible, and especially to those that helped the Mindcrack team raise over $1,000,000 lifetime for the Extra Life charity. We hope to see you at the next marathon, **find out more at MindcrackMarathon.com #forthekids**
+Thank you to everyone who helped make this modpack possible, and especially to those that helped the Mindcrack team raise over $1,000,000 lifetime for the Extra Life charity. We hope to see you at the next marathon, **find out more at [MindcrackMarathon.com](https://mindcrackmarathon.com/) #forthekids**
 
 ## Downloads
 Released files: 
