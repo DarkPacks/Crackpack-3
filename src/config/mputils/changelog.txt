@@ -2,6 +2,28 @@ Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
 
+3.0.1
+
+Bug Fixes:
+* Disabled Silent's Gear nerf of Vanilla Equipment except for Wood and Stone
+* Enabled JEI to show Botania Mana Tablet
+* Hid Morbs from Galacticraft not being hidden (#26)
+* Disabled the logging of Cascading Worldgen Lag. We are aware of the logs and no longer require tickets at this time (#23)
+* Turned down addiction level of Crackpack by 20%
+* Removed Resource Pack accidentally shipping with the modpack
+* Fixed a recipe conflict with the Block Craftery Framed Block (#31)
+* Re-enabled the Forestry work table to help with any recipe conflicts
+
+Mod Updates:
+* Stacking Dimensional Rifts  (1.12.2-1.0.0 - 1.12.2-1.1.0)
+* EIOP (1.12.2-1.0.0 - 1.12.2-1.0.1)
+* Forestry (1.12.2-5.8.2.408 - 1.12.2-5.8.2.409)
+
+Known Issues:
+* We are aware of an issue stopping Forestry machine recipes from showing up and working on trying to fix it. The recipes do work, they currently do not show in JEI and it seems to be a modpack specific issue
+
+---------------------------------------------------------------------
+
 3.0.0
 
 * Initial Release!
