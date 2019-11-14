@@ -5,7 +5,6 @@
         "bits": [
           {
             "name": "cubes_bits",
-            "disabled": true,
             "conditions": [
               {
                 "variableName": "chancecubes",
@@ -57,7 +56,7 @@
             ],
             "outcomes": [
               {
-                "message": "Hey $streamer, $user just tipped $formatted_amount!",
+                "message": "Hey $streamer, $user just cheered $amount bits!",
                 "type": "chat"
               },
               {
@@ -79,7 +78,7 @@
             ],
             "outcomes": [
               {
-                "message": "Hey $streamer, $user just tipped $formatted_amount!",
+                "message": "Hey $streamer, $user just cheered $amount bits!",
                 "type": "chat"
               },
               {
@@ -101,7 +100,7 @@
             ],
             "outcomes": [
               {
-                "message": "Hey $streamer, $user just tipped $formatted_amount!",
+                "message": "Hey $streamer, $user just cheered $amount bits!",
                 "type": "chat"
               },
               {
@@ -136,7 +135,7 @@
             ],
             "outcomes": [
               {
-                "message": "Hey $streamer, $user just tipped $formatted_amount!",
+                "message": "Hey $streamer, $user just cheered $amount bits!",
                 "type": "chat"
               },
               {
@@ -162,13 +161,13 @@
             ],
             "outcomes": [
               {
-                "message": "Hey $streamer, $user just tipped $formatted_amount!",
+                "message": "Hey $streamer, $user just cheered $amount bits!",
                 "type": "chat"
               },
               {
                 "times": "7",
                 "outcome": {
-                  "command": "/summon silverfish ~ ~1 ~ {ActiveEffects:[{Id:14,Amplifier:0,Duration:600}],Passengers:[{id:\"minecraft:armor_stand\",Small:1b,CustomName:\"MyName\",CustomNameVisible:1,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:skull\",Damage:3,tag:{SkullOwner:\"$user\"},Count:1b}]}]}",
+                  "command": "/summon minecraft:wolf ~ ~2 ~ {Silent:1,Owner:\"$playerName\",Age:-99999999,ActiveEffects:[{Id:14,Amplifier:0,Duration:1200}],Passengers:[{id:\"minecraft:armor_stand\",Small:1b,CustomName:\"$user\",NoBasePlate:1b,CustomNameVisible:1,Invisible:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{display:{color:917248}}},{id:\"leather_leggings\",Count:1b,tag:{display:{color:917248}}},{id:\"leather_chestplate\",Count:1b,tag:{display:{color:917248}}},{id:\"minecraft:skull\",Damage:3,tag:{SkullOwner:\"MHF_creeper\"},Count:1b}],Passengers:[{id:\"botania:signal_flare\"}]}]}",
                   "executeAsSelf": true,
                   "type": "command"
                 },
@@ -206,13 +205,7 @@
               },
               {
                 "values": [
-                  "animania:kid_alpine",
-                  "animania:kid_pygmy",
-                  "animania:kid_angora",
-                  "animania:kid_fainting",
-                  "animania:kid_kiko",
-                  "animania:kid_kinder",
-                  "animania:kid_nigerian_dwarf"
+                  "minecraft:sheep"
                 ],
                 "variableName": "submob",
                 "type": "randomString"
@@ -224,11 +217,12 @@
                 "type": "chat"
               },
               {
-                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1}",
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1,Age:-9999999}",
                 "executeAsSelf": true,
                 "type": "command"
               }
             ],
+            "allowsOtherEventsToTrigger": true,
             "playTime": 20
           },
           {
@@ -241,12 +235,7 @@
               },
               {
                 "values": [
-                  "animania:piglet_duroc",
-                  "animania:piglet_hampshire",
-                  "animania:piglet_large_black",
-                  "animania:piglet_large_white",
-                  "animania:piglet_old_spot",
-                  "animania:piglet_yorkshire"
+                  "minecraft:pig"
                 ],
                 "variableName": "submob",
                 "type": "randomString"
@@ -258,11 +247,12 @@
                 "type": "chat"
               },
               {
-                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1}",
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1,Age:-9999999}",
                 "executeAsSelf": true,
                 "type": "command"
               }
             ],
+            "allowsOtherEventsToTrigger": true,
             "playTime": 20
           },
           {
@@ -275,11 +265,8 @@
               },
               {
                 "values": [
-                  "animania:ferret_white",
-                  "animania:ferret_grey",
-                  "animania:hamster",
-                  "animania:hedgehog",
-                  "animania:toad"
+                  "mowziesmobs:grottol",
+                  "mowziesmobs:lantern"
                 ],
                 "variableName": "submob",
                 "type": "randomString"
@@ -296,6 +283,7 @@
                 "type": "command"
               }
             ],
+            "allowsOtherEventsToTrigger": true,
             "playTime": 20
           },
           {
@@ -308,13 +296,7 @@
               },
               {
                 "values": [
-                  "animania:kid_alpine",
-                  "animania:kid_pygmy",
-                  "animania:kid_angora",
-                  "animania:kid_fainting",
-                  "animania:kid_kiko",
-                  "animania:kid_kinder",
-                  "animania:kid_nigerian_dwarf"
+                  "minecraft:donkey"
                 ],
                 "variableName": "submob",
                 "type": "randomString"
@@ -326,16 +308,16 @@
                 "type": "chat"
               },
               {
-                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1}",
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1,Age:-9999999}",
                 "executeAsSelf": true,
                 "type": "command"
               }
             ],
+            "allowsOtherEventsToTrigger": true,
             "playTime": 20
           },
           {
             "name": "T1Cubes",
-            "disabled": true,
             "conditions": [
               {
                 "variableName": "sub_plan",
@@ -346,13 +328,13 @@
             "outcomes": [
               {
                 "command": "/give $playerName chancecubes:chance_cube 1",
+                "executeAsSelf": true,
                 "type": "command"
               }
             ]
           },
           {
             "name": "T2Cubes",
-            "disabled": true,
             "conditions": [
               {
                 "variableName": "sub_plan",
@@ -363,13 +345,13 @@
             "outcomes": [
               {
                 "command": "/give $playerName chancecubes:chance_cube 2",
+                "executeAsSelf": true,
                 "type": "command"
               }
             ]
           },
           {
             "name": "T3Cubes",
-            "disabled": true,
             "conditions": [
               {
                 "variableName": "sub_plan",
@@ -380,13 +362,13 @@
             "outcomes": [
               {
                 "command": "/give $playerName chancecubes:chance_cube 5",
+                "executeAsSelf": true,
                 "type": "command"
               }
             ]
           },
           {
             "name": "PCubes",
-            "disabled": true,
             "conditions": [
               {
                 "variableName": "sub_plan",
@@ -397,6 +379,7 @@
             "outcomes": [
               {
                 "command": "/give $playerName chancecubes:chance_cube 1",
+                "executeAsSelf": true,
                 "type": "command"
               }
             ]
@@ -414,7 +397,6 @@
         "donation": [
           {
             "name": "cubes_tips",
-            "disabled": true,
             "conditions": [
               {
                 "variableName": "chancecubes",
@@ -577,7 +559,7 @@
               {
                 "times": "7",
                 "outcome": {
-                  "command": "/summon silverfish ~ ~1 ~ {ActiveEffects:[{Id:14,Amplifier:0,Duration:600}],Passengers:[{id:\"minecraft:armor_stand\",Small:1b,CustomName:\"MyName\",CustomNameVisible:1,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:skull\",Damage:3,tag:{SkullOwner:\"$user\"},Count:1b}]}]}",
+                  "command": "/summon minecraft:wolf ~ ~2 ~ {Silent:1,Owner:\"$playerName\",Age:-99999999,ActiveEffects:[{Id:14,Amplifier:0,Duration:1200}],Passengers:[{id:\"minecraft:armor_stand\",Small:1b,CustomName:\"$user\",NoBasePlate:1b,CustomNameVisible:1,Invisible:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{display:{color:917248}}},{id:\"leather_leggings\",Count:1b,tag:{display:{color:917248}}},{id:\"leather_chestplate\",Count:1b,tag:{display:{color:917248}}},{id:\"minecraft:skull\",Damage:3,tag:{SkullOwner:\"MHF_creeper\"},Count:1b}],Passengers:[{id:\"botania:signal_flare\"}]}]}",
                   "executeAsSelf": true,
                   "type": "command"
                 },
