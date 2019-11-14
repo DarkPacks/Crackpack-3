@@ -1,4 +1,3 @@
-
 //Configs are read on server load.
 
 //The maximum distance a chunk can be around a player for spawning to be attempted in it. Vanilla is 8.
@@ -14,7 +13,7 @@ setMaxSpawnDistanceAroundPlayer(0)
 setMinSpawnDistanceAroundPlayer(24)
 
 //How often each entity attempts to start new AI tasks, in ticks. Vanilla is 3.
-setNewTaskTickRate(10)
+setNewTaskTickRate(3)
 
 //The minimum time zombie attack AI should wait before attempting to execute again after failing to path to their target. Vanilla is 0.
 //The final wait time used between minimum and maxiumum is calculated based on distance from the target. The further the target, the longer the wait.
@@ -31,4 +30,20 @@ reduceAllowedSpawnAreaChecks(true)
 //When calculating possible chunks for spawning, ignores all chunks which contain no blocks. Should be quite useful for void dimensions.
 ignoreEmptyChunks(true)
 
-//setEntityAttackTargetMultiplier(1) 
+//Sets the chance for all entities to start wandering. Vanilla is mostly 120.
+setEntityWanderChance(240)
+
+//Sets the 1/chance for AI updates to update every tick. Can greatly improve performance, but will have consequences on things like mob attack speed. Vanilla is 1.
+setRandomAITickRate(1)
+
+//Multiplies the chance for AI tasks to acquire new attack targets to run per tick. Lower will increase frequency. Turned up by default to counteract setRandomAITickRate. Vanilla is 1.
+setEntityAttackTargetMultiplier(1)
+
+//Reduce attack targetting slightly, hopefully reducing tick usage without too big of an impact to response time.
+setTickChanceForTask("net.minecraft.entity.ai.EntityAINearestAttackableTarget", 75)
+//Reduce normal wandering by 75%. I doubt anyone would even notice.
+setTickChanceForTask("net.minecraft.entity.ai.EntityAIWander", 25)
+setTickChanceForTask("", 100)
+setTickChanceForTask("", 100)
+//Rats don't need to wander, especially since the task can load chunks
+setTickChanceForTask("com.github.alexthe666.rats.server.entity.ai.RatAIWander", 5)
