@@ -108,7 +108,7 @@
   },
   "other": {
     "background": {
-      "image": "crackpack_3:textures/gui/title/background/BG_new_darker.png",
+      "image": "crackpack_3:textures/gui/title/background/bg_new_darker.png",
       "mode": "stretch"
     }
   }
