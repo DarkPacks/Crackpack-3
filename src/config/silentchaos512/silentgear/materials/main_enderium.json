@@ -1,0 +1,38 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value": 1100},
+        {"name": "armor_durability","value": 24},
+        {"name": "enchantability",  "value": 13},
+        {"name": "harvest_level",   "value": 4},
+        {"name": "harvest_speed",   "value": 18},
+        {"name": "melee_damage",    "value": 6},
+        {"name": "magic_damage",    "value": 4},
+        {"name": "attack_speed",    "value": 0},
+        {"name": "armor",           "value": 22},
+        {"name": "armor_toughness", "value": 4},
+        {"name": "magic_armor",     "value": 8},
+        {"name": "ranged_damage",   "value": 3},
+        {"name": "ranged_speed",    "value": 0},
+        {"name": "rarity",          "value": 56},
+        {"name": "chargeability",   "value": 0.8}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "basemetals:enderium_ingot",
+            "oredict": "ingotEnderium"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "generic_hc",
+        "texture_color": "468C75",
+        "broken_color": "468C76",
+        "override_localization": "Enderium"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 4,
+        "tool_blacklist": []
+    }
+}

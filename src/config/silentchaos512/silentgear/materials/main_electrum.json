@@ -1,0 +1,38 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value": 100},
+        {"name": "armor_durability","value": 2},
+        {"name": "enchantability",  "value": 20},
+        {"name": "harvest_level",   "value": 2},
+        {"name": "harvest_speed",   "value": 14},
+        {"name": "melee_damage",    "value": 1.5},
+        {"name": "magic_damage",    "value": 4},
+        {"name": "attack_speed",    "value": 0.3},
+        {"name": "armor",           "value": 15},
+        {"name": "armor_toughness", "value": 0},
+        {"name": "magic_armor",     "value": 10},
+        {"name": "ranged_damage",   "value": 1},
+        {"name": "ranged_speed",    "value": 0.3},
+        {"name": "rarity",          "value": 38},
+        {"name": "chargeability",   "value": 1.4}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "basemetals:electrum_ingot",
+            "oredict": "ingotElectrum"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "generic_hc",
+        "texture_color": "FFFF80",
+        "broken_color": "FFFF81",
+        "override_localization": "Electrum"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 2,
+        "tool_blacklist": []
+    }
+}
