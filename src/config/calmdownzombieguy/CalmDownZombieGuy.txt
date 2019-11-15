@@ -1,3 +1,4 @@
+
 //Configs are read on server load.
 
 //The maximum distance a chunk can be around a player for spawning to be attempted in it. Vanilla is 8.
@@ -43,7 +44,10 @@ setEntityAttackTargetMultiplier(1)
 setTickChanceForTask("net.minecraft.entity.ai.EntityAINearestAttackableTarget", 75)
 //Reduce normal wandering by 75%. I doubt anyone would even notice.
 setTickChanceForTask("net.minecraft.entity.ai.EntityAIWander", 25)
-setTickChanceForTask("", 100)
-setTickChanceForTask("", 100)
-//Rats don't need to wander, especially since the task can load chunks
-setTickChanceForTask("com.github.alexthe666.rats.server.entity.ai.RatAIWander", 5)
+//Task can load chunks, and rats don't need to wander much.
+setTickChanceForTask("com.github.alexthe666.rats.server.entity.ai.RatAIWander", 1)
+//Rat item targeting is a bit laggy.
+setTickChanceForTask("com.github.alexthe666.rats.server.entity.ai.RatAITargetItems", 50)
+//Rat tree chopping is insane. WTF is wrong with this mod
+setTickChanceForTask("com.github.alexthe666.rats.server.entity.ai.RatAIHarvestTrees", 25)
+
