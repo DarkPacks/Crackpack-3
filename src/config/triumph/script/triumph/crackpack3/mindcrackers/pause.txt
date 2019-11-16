@@ -16,3 +16,5 @@ player.setName("PauseUnpause")
 
 addRewardItem(<minecraft:golden_apple, meta:1, count:1>)
 addRewardItem(<minecraft:saddle, meta:0, count:1>)
+
+criteria = addCriteria("impossible", "minecraft:impossible")

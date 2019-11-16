@@ -15,3 +15,5 @@ player = criteria.getPlayerData()
 player.setName("Darkosto")
 
 addRewardItem(<harvestcraft:coffeeitem>)
+
+criteria = addCriteria("impossible", "minecraft:impossible")

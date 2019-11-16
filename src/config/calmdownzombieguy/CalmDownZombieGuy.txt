@@ -44,10 +44,4 @@ setEntityAttackTargetMultiplier(1)
 setTickChanceForTask("net.minecraft.entity.ai.EntityAINearestAttackableTarget", 75)
 //Reduce normal wandering by 75%. I doubt anyone would even notice.
 setTickChanceForTask("net.minecraft.entity.ai.EntityAIWander", 25)
-//Task can load chunks, and rats don't need to wander much.
-setTickChanceForTask("com.github.alexthe666.rats.server.entity.ai.RatAIWander", 1)
-//Rat item targeting is a bit laggy.
-setTickChanceForTask("com.github.alexthe666.rats.server.entity.ai.RatAITargetItems", 50)
-//Rat tree chopping is insane. WTF is wrong with this mod
-setTickChanceForTask("com.github.alexthe666.rats.server.entity.ai.RatAIHarvestTrees", 25)
 

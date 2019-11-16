@@ -15,3 +15,5 @@ player = criteria.getPlayerData()
 player.setName("Guude")
 
 addRewardItem(<minecraft:record_13, meta:0, count:1>)
+
+criteria = addCriteria("impossible", "minecraft:impossible")

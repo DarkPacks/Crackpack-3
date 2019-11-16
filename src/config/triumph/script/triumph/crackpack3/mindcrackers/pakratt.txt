@@ -16,3 +16,5 @@ player.setName("Pakratt0013")
 
 addRewardItem(<minecraft:tnt, count:4>)
 addRewardItem(<minecraft:redstone_torch, count:1>)
+
+criteria = addCriteria("impossible", "minecraft:impossible")
