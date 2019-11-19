@@ -16,6 +16,7 @@ Mod Updates:
 * Rats (3.2.0 - 3.2.2)
 * Stacking Dimensional Rifts (1.12.2-1.1.1 - 1.12.2-1.2.0)
 * Calm Down Zombie Guy (1.4.0 - 1.4.1)
+* Apotheosis (1.12.2-1.11.8 - 1.12.2-1.12.1) - Fixes a number of crash issues
 
 Added Mods:
 * AI Improvements (1.12-0.0.1b3)
