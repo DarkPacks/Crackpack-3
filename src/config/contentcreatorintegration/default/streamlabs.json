@@ -217,7 +217,7 @@
                 "type": "chat"
               },
               {
-                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1,Age:-9999999}",
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",CustomNameVisible:1,Silent:1,ActiveEffects:[{Id:10,Amplifier:1,Duration:6000,ShowParticles:false},{Id:20,Amplifier:0,Duration:999999,ShowParticles:false},{Id:24,Amplifier:0,Duration:999999,ShowParticles:false}]}",
                 "executeAsSelf": true,
                 "type": "command"
               }
@@ -247,7 +247,7 @@
                 "type": "chat"
               },
               {
-                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1,Age:-9999999}",
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",CustomNameVisible:1,Silent:1,ActiveEffects:[{Id:10,Amplifier:1,Duration:6000,ShowParticles:false},{Id:20,Amplifier:0,Duration:999999,ShowParticles:false},{Id:24,Amplifier:0,Duration:999999,ShowParticles:false}]}",
                 "executeAsSelf": true,
                 "type": "command"
               }
@@ -278,7 +278,7 @@
                 "type": "chat"
               },
               {
-                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1}",
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",CustomNameVisible:1,Silent:1,ActiveEffects:[{Id:10,Amplifier:1,Duration:6000,ShowParticles:false},{Id:20,Amplifier:0,Duration:999999,ShowParticles:false},{Id:24,Amplifier:0,Duration:999999,ShowParticles:false}]}",
                 "executeAsSelf": true,
                 "type": "command"
               }
@@ -308,7 +308,7 @@
                 "type": "chat"
               },
               {
-                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",Glowing:1,CustomNameVisible:1,Age:-9999999}",
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",CustomNameVisible:1,Silent:1,ActiveEffects:[{Id:10,Amplifier:1,Duration:6000,ShowParticles:false},{Id:20,Amplifier:0,Duration:999999,ShowParticles:false},{Id:24,Amplifier:0,Duration:999999,ShowParticles:false}]}",
                 "executeAsSelf": true,
                 "type": "command"
               }
