@@ -1,0 +1,38 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value": 500},
+        {"name": "armor_durability","value": 11},
+        {"name": "enchantability",  "value": 14},
+        {"name": "harvest_level",   "value": 2},
+        {"name": "harvest_speed",   "value": 6},
+        {"name": "melee_damage",    "value": 3},
+        {"name": "magic_damage",    "value": 1},
+        {"name": "attack_speed",    "value": 0.1},
+        {"name": "armor",           "value": 17},
+        {"name": "armor_toughness", "value": 2},
+        {"name": "magic_armor",     "value": 6},
+        {"name": "ranged_damage",   "value": 2},
+        {"name": "ranged_speed",    "value": 0},
+        {"name": "rarity",          "value": 26},
+        {"name": "chargeability",   "value": 1.1}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "basemetals:bronze_ingot",
+            "oredict": "ingotBronze"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "generic_hc",
+        "texture_color": "FF5400",
+        "broken_color": "FF5401",
+        "override_localization": "Bronze"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 2,
+        "tool_blacklist": []
+    }
+}

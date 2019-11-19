@@ -1,0 +1,38 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value": 500},
+        {"name": "armor_durability","value": 11},
+        {"name": "enchantability",  "value": 10},
+        {"name": "harvest_level",   "value": 2},
+        {"name": "harvest_speed",   "value": 7},
+        {"name": "melee_damage",    "value": 4},
+        {"name": "magic_damage",    "value": 2},
+        {"name": "attack_speed",    "value": 0.1},
+        {"name": "armor",           "value": 17},
+        {"name": "armor_toughness", "value": 0},
+        {"name": "magic_armor",     "value": 5},
+        {"name": "ranged_damage",   "value": 1},
+        {"name": "ranged_speed",    "value": 0},
+        {"name": "rarity",          "value": 22},
+        {"name": "chargeability",   "value": 0.8}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "basemetals:osmium_ingot",
+            "oredict": "ingotOsmium"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "generic_hc",
+        "texture_color": "92A6B8",
+        "broken_color": "92A6B9",
+        "override_localization": "Osmium"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 2,
+        "tool_blacklist": []
+    }
+}

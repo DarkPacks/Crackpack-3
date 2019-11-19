@@ -1,0 +1,38 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value": 300},
+        {"name": "armor_durability","value": 7},
+        {"name": "enchantability",  "value": 10},
+        {"name": "harvest_level",   "value": 2},
+        {"name": "harvest_speed",   "value": 7},
+        {"name": "melee_damage",    "value": 2.5},
+        {"name": "magic_damage",    "value": 1},
+        {"name": "attack_speed",    "value": 0.4},
+        {"name": "armor",           "value": 15},
+        {"name": "armor_toughness", "value": 0},
+        {"name": "magic_armor",     "value": 3},
+        {"name": "ranged_damage",   "value": 1.5},
+        {"name": "ranged_speed",    "value": -0.1},
+        {"name": "rarity",          "value": 18},
+        {"name": "chargeability",   "value": 0.9}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "basemetals:aluminum_ingot",
+            "oredict": "ingotAluminum"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "generic_hc",
+        "texture_color": "FFFFFF",
+        "broken_color": "FFFFFF",
+        "override_localization": "Aluminum"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 2,
+        "tool_blacklist": []
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value": 200},
+        {"name": "armor_durability","value": 4},
+        {"name": "enchantability",  "value": 11},
+        {"name": "harvest_level",   "value": 1},
+        {"name": "harvest_speed",   "value": 3},
+        {"name": "melee_damage",    "value": 1.5},
+        {"name": "magic_damage",    "value": 2.5},
+        {"name": "attack_speed",    "value": 0.1},
+        {"name": "armor",           "value": 12},
+        {"name": "armor_toughness", "value": 0},
+        {"name": "magic_armor",     "value": 5},
+        {"name": "ranged_damage",   "value": 0},
+        {"name": "ranged_speed",    "value": -0.1},
+        {"name": "rarity",          "value": 10},
+        {"name": "chargeability",   "value": 1.0}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "basemetals:zinc_ingot",
+            "oredict": "ingotZinc"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "generic_lc",
+        "texture_color": "DDCCFF",
+        "broken_color": "DDCCFF",
+        "override_localization": "Zinc"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 1,
+        "tool_blacklist": []
+    }
+}
