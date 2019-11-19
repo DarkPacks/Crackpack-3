@@ -1,0 +1,38 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value": 1600},
+        {"name": "armor_durability","value": 35},
+        {"name": "enchantability",  "value": 12},
+        {"name": "harvest_level",   "value": 3},
+        {"name": "harvest_speed",   "value": 8},
+        {"name": "melee_damage",    "value": 6},
+        {"name": "magic_damage",    "value": 1},
+        {"name": "attack_speed",    "value": 0},
+        {"name": "armor",           "value": 24},
+        {"name": "armor_toughness", "value": 4},
+        {"name": "magic_armor",     "value": 4},
+        {"name": "ranged_damage",   "value": 1},
+        {"name": "ranged_speed",    "value": -0.2},
+        {"name": "rarity",          "value": 46},
+        {"name": "chargeability",   "value": 0.8}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "basemetals:titanium_ingot",
+            "oredict": "ingotTitanium"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "generic_hc",
+        "texture_color": "2E4CE6",
+        "broken_color": "2E4CE7",
+        "override_localization": "Titanium"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 3,
+        "tool_blacklist": []
+    }
+}
