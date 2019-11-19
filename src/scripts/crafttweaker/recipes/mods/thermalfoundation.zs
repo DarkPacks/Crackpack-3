@@ -16,6 +16,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
 			[null, <ore:ingotIron>, null]
 		]
+	],
+	//Steel Gear
+	<thermalfoundation:material:288>: [
+		[
+			[null, <ore:ingotSteel>, null],
+			[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>],
+			[null, <ore:ingotSteel>, null]
+		]
 	]
 };
 
@@ -44,7 +52,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<thermalfoundation:material:24>
+	<thermalfoundation:material:24>,
+	<thermalfoundation:material:288>
 ];
 
 function init() {
