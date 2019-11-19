@@ -1,6 +1,29 @@
 Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
+3.0.3
+
+Bug Fixes:
+* Fixed recipe overlap of Steel Gear and Steel Bushing Set (#52)
+
+Enhancements:
+* Increased the Aroma backup to run every 60 mins instead of 30 mins. Also lowered the total amount of backups being kept
+* Added more Silent's Gear materials (PR #53)
+* Made Silk Touch available to Apotheosis (PR #60)
+* Disabled Uncrafting Table due to a number of exploits (#58)
+
+Mod Updates:
+* Rats (3.2.0 - 3.2.2)
+* Stacking Dimensional Rifts (1.12.2-1.1.1 - 1.12.2-1.2.0)
+* Calm Down Zombie Guy (1.4.0 - 1.4.1)
+
+Added Mods:
+* AI Improvements (1.12-0.0.1b3)
+* Super Sound Muffler(1.0.2.10)
+* BetterFPS
+
+---------------------------------------------------------------------
+
 3.0.2
 
 Bug Fixes:
