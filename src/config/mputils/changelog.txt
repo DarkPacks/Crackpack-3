@@ -1,6 +1,30 @@
 Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
+
+3.0.4
+
+Bug Fixes:
+* Disabled the Chance Reward XP Crystal since it did not work with Clumps mod
+* Added a furnace recipe for Chococraft Pickled Gysahl Green (#73)
+* Added Silent's Flax Seeds and Gysahl Seeds to the listAllSeed oredict (#73)
+
+Enhancements:
+* Added a bit more difficulty in creating the last three tiers of Jetpacks (#78)
+* Removed the Caliper mod as it is not needed past development
+* All gear recipes now require an Iron Ingot in the center to alleviate recipe conflicts
+
+Mod Updates:
+* Apotheosis (1.12.2-1.12.1 - 1.12.2-1.12.2) - Fixes a rare crash when getting a null enchantment
+* Logistics Pipes (0.10.2.211 - 0.10.2.212) (Fixes #74 and #82)
+* Rats (3.2.2 - 3.2.3)
+* Stacking Dimensional Rifts (1.12.2-1.2.0 - 1.12.2-1.2.1) (Fixes #74)
+* The Betweenlands (3.5.2 - 3.5.3)
+* Alchemistry (1.0.35 - 1.0.36)
+
+---------------------------------------------------------------------
+
+
 3.0.3
 
 Bug Fixes:
