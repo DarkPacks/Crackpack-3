@@ -61,7 +61,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IItemStack[] = [
 	<ironjetpacks:diamond_capacitor>,
 	<ironjetpacks:platinum_capacitor>,
-	<ironjetpacks:emerald_cell>
+	<ironjetpacks:emerald_capacitor>
 ];
 
 function init() {
