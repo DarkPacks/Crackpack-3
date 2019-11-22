@@ -1,0 +1,14 @@
+setTitle("Aluminum")
+
+setIcon(<thermalfoundation:ore, meta:4>)
+
+setDescription("Aluminum can be found in The Beneath between y40 and y75")
+
+addParent("triumph:crackpack3/beneath")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
+setPos(236,-77)

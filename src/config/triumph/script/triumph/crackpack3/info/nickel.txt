@@ -1,0 +1,14 @@
+setTitle("Nickel")
+
+setIcon(<thermalfoundation:ore, meta:5>)
+
+setDescription("Nickel can be found in The Beneath between y5 and y90")
+
+addParent("triumph:crackpack3/beneath")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
+setPos(267,-77)
