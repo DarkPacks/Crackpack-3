@@ -8,12 +8,15 @@ Bug Fixes:
 * Disabled the Chance Reward XP Crystal since it did not work with Clumps mod
 * Added a furnace recipe for Chococraft Pickled Gysahl Green (#73)
 * Added Silent's Flax Seeds and Gysahl Seeds to the listAllSeed oredict (#73)
+* Added recipes for the ICBM Missile Launcher Platforms
+* Disabled backpacks placing on the ground after death to fix an issue that would delete the backpack when dying to Creeper, TNT, and certain other explosions
 
 Enhancements:
 * Added a bit more difficulty in creating the last three tiers of Jetpacks (#78)
 * Removed the Caliper mod as it is not needed past development
 * All gear recipes now require an Iron Ingot in the center to alleviate recipe conflicts
 * Added a number of Advancements to let players know where certain ore types are
+* Added JEI tabs for a number of ore to give players another place for location information
 * Lowered weight of Rat spawns to be more on par with vanilla spawn rates
 
 Mod Updates:
