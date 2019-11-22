@@ -13,6 +13,8 @@ Enhancements:
 * Added a bit more difficulty in creating the last three tiers of Jetpacks (#78)
 * Removed the Caliper mod as it is not needed past development
 * All gear recipes now require an Iron Ingot in the center to alleviate recipe conflicts
+* Added a number of Advancements to let players know where certain ore types are
+* Lowered weight of Rat spawns to be more on par with vanilla spawn rates
 
 Mod Updates:
 * Apotheosis (1.12.2-1.12.1 - 1.12.2-1.12.2) - Fixes a rare crash when getting a null enchantment
