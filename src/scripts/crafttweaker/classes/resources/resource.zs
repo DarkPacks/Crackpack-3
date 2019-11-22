@@ -147,7 +147,7 @@ zenClass Resource {
 		if (hasPart("gear")) {
 			recipes.addShaped(this.parts.gear, [
 				[null, this.parts.ingot, null],
-				[this.parts.ingot, null, this.parts.ingot],
+				[this.parts.ingot, <ore:ingotIron>, this.parts.ingot],
 				[null, this.parts.ingot, null]
 			]);
 		}
