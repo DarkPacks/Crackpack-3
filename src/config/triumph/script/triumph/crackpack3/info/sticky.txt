@@ -1,0 +1,14 @@
+setTitle("Sticky Ore")
+
+setIcon(<aroma1997sdimension:miningore>)
+
+setDescription("Sticky Ore can be found in The Beneath between y130 and y246")
+
+addParent("triumph:crackpack3/beneath")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
+setPos(329,-77)

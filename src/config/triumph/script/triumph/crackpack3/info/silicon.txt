@@ -1,0 +1,14 @@
+setTitle("Silicon")
+
+setIcon(<galacticraftcore:basic_block_core, meta:8>)
+
+setDescription("Silicon can be found in The Beneath between y75 and y200")
+
+addParent("triumph:crackpack3/beneath")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
+setPos(298,-77)

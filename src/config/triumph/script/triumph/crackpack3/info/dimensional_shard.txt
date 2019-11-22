@@ -1,0 +1,14 @@
+setTitle("Dimensional Shard")
+
+setIcon(<rftools:dimensional_shard_ore, meta:1>)
+
+setDescription("Dimensional Shard Ore can be found in The Nether and The End between y2 and y40")
+
+addParent("triumph:crackpack3/nether")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+addCriteria("location", "minecraft:location")
+setPos(205,-46)
