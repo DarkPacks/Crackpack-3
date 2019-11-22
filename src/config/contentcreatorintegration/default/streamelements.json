@@ -1,0 +1,644 @@
+{
+  "configs": [
+    {
+      "types": {
+        "cheer": [
+          {
+            "name": "cubes_bits",
+            "conditions": [
+              {
+                "variableName": "chancecubes",
+                "variableInput": "chancecubes:chance_cube",
+                "type": "variableInsert"
+              },
+              {
+                "min": 500.0,
+                "type": "range"
+              },
+              {
+                "variableName": "total",
+                "variableInput": "$amount",
+                "type": "variableInsert"
+              },
+              {
+                "calc": "/",
+                "value1": "total",
+                "value2": "500",
+                "variableName": "numCubes",
+                "type": "math"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer it seems $user gave you $numCubes chance cube(s)!",
+                "type": "chat"
+              },
+              {
+                "times": "$numCubes",
+                "outcome": {
+                  "command": "/give $playerName $chancecubes",
+                  "type": "command"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "delay": 40
+          },
+          {
+            "name": "100 Bits",
+            "conditions": [
+              {
+                "min": 100.0,
+                "max": 499.0,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just cheered $amount bits!",
+                "type": "chat"
+              },
+              {
+                "command": "/effect $playerName minecraft:regeneration 2",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ]
+          },
+          {
+            "name": "500 Bits",
+            "conditions": [
+              {
+                "min": 500.0,
+                "max": 999.0,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just cheered $amount bits!",
+                "type": "chat"
+              },
+              {
+                "command": "/effect @p minecraft:speed 15 2 true",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1000 Bits",
+            "conditions": [
+              {
+                "min": 1000.0,
+                "max": 2499.0,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just cheered $amount bits!",
+                "type": "chat"
+              },
+              {
+                "command": "/effect @p rats:synesthesia 20",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2500 Bits",
+            "conditions": [
+              {
+                "min": 2500.0,
+                "max": 4999.0,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just cheered $amount bits!",
+                "type": "chat"
+              },
+              {
+                "times": "5",
+                "outcome": {
+                  "command": "/summon bat ~ ~1 ~ {Silent:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:999999}],Passengers:[{id:pig,Age:-25000,}]}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              },
+              {
+                "sound": "ebwizardry:spell.transportation",
+                "type": "sound"
+              },
+              {
+                "command": "/particle reddust ~ ~ ~ 1 1 1 6 1000",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "5000 Bits",
+            "conditions": [
+              {
+                "min": 5000.0,
+                "max": 9999.0,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just cheered $amount bits!",
+                "type": "chat"
+              },
+              {
+                "command": "/effect @p biomesoplenty:curse 20",
+                "executeAsSelf": true,
+                "type": "command"
+              },
+              {
+                "sound": "minecraft:record.chirp",
+                "volume": 0.1,
+                "type": "sound"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "10000 Bits",
+            "conditions": [
+              {
+                "min": 10000.0,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just cheered $amount bits!",
+                "type": "chat"
+              },
+              {
+                "times": "7",
+                "outcome": {
+                  "command": "/summon minecraft:wolf ~ ~2 ~ {Silent:1,Owner:\"$playerName\",Age:-99999999,ActiveEffects:[{Id:14,Amplifier:0,Duration:1200}],Passengers:[{id:\"minecraft:armor_stand\",Small:1b,CustomName:\"$user\",NoBasePlate:1b,CustomNameVisible:1,Invisible:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{display:{color:917248}}},{id:\"leather_leggings\",Count:1b,tag:{display:{color:917248}}},{id:\"leather_chestplate\",Count:1b,tag:{display:{color:917248}}},{id:\"minecraft:skull\",Damage:3,tag:{SkullOwner:\"MHF_creeper\"},Count:1b}],Passengers:[{id:\"botania:signal_flare\"}]}]}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              },
+              {
+                "sound": "tombstone:ghost_howl",
+                "type": "sound"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ],
+        "subscriber": [
+          {
+            "name": "Tier1",
+            "conditions": [
+              {
+                "variableName": "tier",
+                "variableResult": "1000",
+                "type": "variable"
+              },
+              {
+                "values": [
+                  "minecraft:sheep"
+                ],
+                "variableName": "submob",
+                "type": "randomString"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just subscribed [TIER1] for $amount months!",
+                "type": "chat"
+              },
+              {
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",CustomNameVisible:1,Silent:1,ActiveEffects:[{Id:10,Amplifier:1,Duration:6000,ShowParticles:false},{Id:20,Amplifier:0,Duration:999999,ShowParticles:false},{Id:24,Amplifier:0,Duration:999999,ShowParticles:false}]}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": 20
+          },
+          {
+            "name": "Tier2",
+            "conditions": [
+              {
+                "variableName": "tier",
+                "variableResult": "2000",
+                "type": "variable"
+              },
+              {
+                "values": [
+                  "minecraft:pig"
+                ],
+                "variableName": "submob",
+                "type": "randomString"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just subscribed [TIER2] for $amount months!",
+                "type": "chat"
+              },
+              {
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",CustomNameVisible:1,Silent:1,ActiveEffects:[{Id:10,Amplifier:1,Duration:6000,ShowParticles:false},{Id:20,Amplifier:0,Duration:999999,ShowParticles:false},{Id:24,Amplifier:0,Duration:999999,ShowParticles:false}]}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": 20
+          },
+          {
+            "name": "Tier3",
+            "conditions": [
+              {
+                "variableName": "tier",
+                "variableResult": "3000",
+                "type": "variable"
+              },
+              {
+                "values": [
+                  "mowziesmobs:grottol",
+                  "mowziesmobs:lantern"
+                ],
+                "variableName": "submob",
+                "type": "randomString"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just subscribed [TIER3] for $amount months!",
+                "type": "chat"
+              },
+              {
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",CustomNameVisible:1,Silent:1,ActiveEffects:[{Id:10,Amplifier:1,Duration:6000,ShowParticles:false},{Id:20,Amplifier:0,Duration:999999,ShowParticles:false},{Id:24,Amplifier:0,Duration:999999,ShowParticles:false}]}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": 20
+          },
+          {
+            "name": "Prime",
+            "conditions": [
+              {
+                "variableName": "tier",
+                "variableResult": "Prime",
+                "type": "variable"
+              },
+              {
+                "values": [
+                  "minecraft:donkey"
+                ],
+                "variableName": "submob",
+                "type": "randomString"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just subscribed [Prime] for $amount months!",
+                "type": "chat"
+              },
+              {
+                "command": "/summon $submob ~ ~1 ~ {CustomName:\"$user\",CustomNameVisible:1,Silent:1,ActiveEffects:[{Id:10,Amplifier:1,Duration:6000,ShowParticles:false},{Id:20,Amplifier:0,Duration:999999,ShowParticles:false},{Id:24,Amplifier:0,Duration:999999,ShowParticles:false}]}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": 20
+          },
+          {
+            "name": "T1Cubes",
+            "conditions": [
+              {
+                "variableName": "tier",
+                "variableResult": "1000",
+                "type": "variable"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/give $playerName chancecubes:chance_cube 1",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ]
+          },
+          {
+            "name": "T2Cubes",
+            "conditions": [
+              {
+                "variableName": "tier",
+                "variableResult": "2000",
+                "type": "variable"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/give $playerName chancecubes:chance_cube 2",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ]
+          },
+          {
+            "name": "T3Cubes",
+            "conditions": [
+              {
+                "variableName": "tier",
+                "variableResult": "3000",
+                "type": "variable"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/give $playerName chancecubes:chance_cube 5",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ]
+          },
+          {
+            "name": "PCubes",
+            "conditions": [
+              {
+                "variableName": "tier",
+                "variableResult": "Prime",
+                "type": "variable"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/give $playerName chancecubes:chance_cube 1",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ]
+          }
+        ],
+        "follow": [
+          {
+            "disabled": true,
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just followed!",
+                "type": "chat"
+              }
+            ],
+            "playTime": 20
+          }
+        ],
+        "host": [
+          {
+            "disabled": true,
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just hosted you for up to $amount viewers!",
+                "type": "chat"
+              }
+            ],
+            "playTime": 20
+          }
+        ],
+        "raid": [
+          {
+            "disabled": true,
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just raided you with $amount raiders!",
+                "type": "chat"
+              }
+            ]
+          }
+        ],
+        "tip": [
+          {
+            "name": "cubes_tips",
+            "conditions": [
+              {
+                "variableName": "chancecubes",
+                "variableInput": "chancecubes:chance_cube",
+                "type": "variableInsert"
+              },
+              {
+                "min": 5.0,
+                "type": "range"
+              },
+              {
+                "variableName": "total",
+                "variableInput": "$amount",
+                "type": "variableInsert"
+              },
+              {
+                "calc": "/",
+                "value1": "total",
+                "value2": "5",
+                "variableName": "numCubes",
+                "type": "math"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer it seems $user gave you $numCubes chance cube(s)!",
+                "type": "chat"
+              },
+              {
+                "times": "$numCubes",
+                "outcome": {
+                  "command": "/give $playerName $chancecubes",
+                  "type": "command"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "delay": 40
+          },
+          {
+            "name": "$1",
+            "conditions": [
+              {
+                "min": 1.0,
+                "max": 4.99,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just tipped $amount!",
+                "type": "chat"
+              },
+              {
+                "command": "/effect $playerName minecraft:regeneration 2",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "$5",
+            "conditions": [
+              {
+                "min": 5.0,
+                "max": 9.99,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just tipped $amount!",
+                "type": "chat"
+              },
+              {
+                "command": "/effect @p minecraft:speed 15 2 true",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "$10",
+            "conditions": [
+              {
+                "min": 10.0,
+                "max": 24.99,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just tipped $amount!",
+                "type": "chat"
+              },
+              {
+                "command": "/effect @p rats:synesthesia 20",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "$25",
+            "conditions": [
+              {
+                "min": 25.0,
+                "max": 49.99,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just tipped $amount!",
+                "type": "chat"
+              },
+              {
+                "times": "5",
+                "outcome": {
+                  "command": "/summon bat ~ ~1 ~ {Silent:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:999999}],Passengers:[{id:pig,Age:-25000,}]}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              },
+              {
+                "sound": "ebwizardry:spell.transportation",
+                "type": "sound"
+              },
+              {
+                "command": "/particle reddust ~ ~ ~ 1 1 1 6 1000",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "$50",
+            "conditions": [
+              {
+                "min": 50.0,
+                "max": 99.99,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just tipped $amount!",
+                "type": "chat"
+              },
+              {
+                "command": "/effect @p biomesoplenty:curse 20",
+                "executeAsSelf": true,
+                "type": "command"
+              },
+              {
+                "sound": "minecraft:record.chirp",
+                "volume": 0.1,
+                "type": "sound"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "$100",
+            "conditions": [
+              {
+                "min": 100.0,
+                "type": "range"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just tipped $amount!",
+                "type": "chat"
+              },
+              {
+                "times": "7",
+                "outcome": {
+                  "command": "/summon minecraft:wolf ~ ~2 ~ {Silent:1,Owner:\"$playerName\",Age:-99999999,ActiveEffects:[{Id:14,Amplifier:0,Duration:1200}],Passengers:[{id:\"minecraft:armor_stand\",Small:1b,CustomName:\"$user\",NoBasePlate:1b,CustomNameVisible:1,Invisible:1b,ArmorItems:[{id:\"leather_boots\",Count:1b,tag:{display:{color:917248}}},{id:\"leather_leggings\",Count:1b,tag:{display:{color:917248}}},{id:\"leather_chestplate\",Count:1b,tag:{display:{color:917248}}},{id:\"minecraft:skull\",Damage:3,tag:{SkullOwner:\"MHF_creeper\"},Count:1b}],Passengers:[{id:\"botania:signal_flare\"}]}]}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              },
+              {
+                "sound": "tombstone:ghost_howl",
+                "type": "sound"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      },
+      "queue": [
+        "host+subscriber+cheer",
+        "follow"
+      ]
+    }
+  ],
+  "init": [],
+  "type": "streamelements"
+}
