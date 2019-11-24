@@ -27,3 +27,4 @@ tips.addTip("Only limited flight options are available from the start. You'll ha
 tips.addTip("Did you know, Mindcrack has raised over $1,000,000 for Extra Life?!")
 tips.addTip("You can donate to Extra Life by going to MindcrackMarathon.com")
 tips.addTip("Mhykol's Tomato Soup Recipe: Take 1 can of Campbell's soup and dump into saucepan, fill can with water and also add to saucepan. Heat and stir until warm.")
+tips.addTip("Rib Bones can be crafted into Bones, Zombie Hearts into Rotten Flesh, and Nebulous Hearts into Ender Pearls. Check mob drops for more recipes!")

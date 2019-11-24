@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "mob": "Zombie",
+    "item": "xreliquary:mob_ingredient@6",
+    "random": 0.085,
+    "itemcount": "1/0/0"
+  },
+  {
+    "mob": "Zombie",
+    "item": "xreliquary:mob_ingredient@6",
+    "random": 0.12,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "Zombie",
+    "item": "xreliquary:mob_ingredient@6",
+    "random": 0.16,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "Skeleton",
+    "item": "xreliquary:mob_ingredient",
+    "random": 0.1,
+    "itemcount": "1/0/0"
+  },
+  {
+    "mob": "Skeleton",
+    "item": "xreliquary:mob_ingredient",
+    "random": 0.14,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "Skeleton",
+    "item": "xreliquary:mob_ingredient",
+    "random": 0.18,
+    "itemcount": "0/0/1"
+  }
+]

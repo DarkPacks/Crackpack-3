@@ -141,8 +141,13 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Key to The End Dimension"),
 		format.red("Right-Click on Bedrock to open a Portal"),
 		format.red("From the bottom of The Erebus Dimension")
+	],
+	<xreliquary:mob_ingredient>: [
+		format.red("Crafts into Bones")
+	],
+	<xreliquary:mob_ingredient:6>: [
+		format.red("Crafts into Rotten Flesh")
 	]
-
 };
 
 function init() {
