@@ -18,9 +18,13 @@ Enhancements:
 * Added a number of Advancements to let players know where certain ore types are
 * Added JEI tabs for a number of ore to give players another place for location information
 * Lowered weight of Rat spawns to be more on par with vanilla spawn rates
+* Are you reading this?
+* Increased drops for Rib Bones and Zombie Hearts. The resulting Bones and Rotten Flesh should be comparable to vanilla amounts 
+* Added a tooltip and loading screen tip to alert players that Rib Bones and Zombie Hearts can be crafted into vanilla items
+* Added a recipe to make Netherrack with Alchemistry
 
 Mod Updates:
-* Apotheosis (1.12.2-1.12.1 - 1.12.2-1.12.2) - Fixes a rare crash when getting a null enchantment
+* Apotheosis (1.12.2-1.12.1 - 1.12.2-1.12.3) - Fixes a rare crash when getting a null enchantment
 * Logistics Pipes (0.10.2.211 - 0.10.2.212) (Fixes #74 and #82)
 * Rats (3.2.2 - 3.2.3)
 * Stacking Dimensional Rifts (1.12.2-1.2.0 - 1.12.2-1.2.1) (Fixes #74)
