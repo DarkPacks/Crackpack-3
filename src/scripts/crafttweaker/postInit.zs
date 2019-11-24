@@ -41,7 +41,7 @@ function initStaging() {
 
 function initIntegration() {
 	scripts.crafttweaker.modIntegrations.apotheosis.init();
-	//scripts.crafttweaker.modIntegrations.alchemistry.init();	
+	scripts.crafttweaker.modIntegrations.alchemistry.init();
 	scripts.crafttweaker.modIntegrations.lootTableTweaker.init();
 }
 
