@@ -25,9 +25,10 @@ Enhancements:
 
 Mod Updates:
 * Apotheosis (1.12.2-1.12.1 - 1.12.2-1.12.3) - Fixes a rare crash when getting a null enchantment
+* The Erebus (1.0.30 - 1.0.31)
 * Logistics Pipes (0.10.2.211 - 0.10.2.212) (Fixes #74 and #82)
 * Rats (3.2.2 - 3.2.3)
-* Stacking Dimensional Rifts (1.12.2-1.2.0 - 1.12.2-1.2.1) (Fixes #74)
+* Stacking Dimensional Rifts (1.12.2-1.2.0 - 1.12.2-1.2.1) Should fix the remaining issue where player's cannot go to the end (Fixes #74)
 * The Betweenlands (3.5.2 - 3.5.3)
 * Alchemistry (1.0.35 - 1.0.36)
 
