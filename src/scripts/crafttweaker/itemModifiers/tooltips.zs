@@ -147,6 +147,26 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<xreliquary:mob_ingredient:6>: [
 		format.red("Crafts into Rotten Flesh")
+	],
+
+	//Tooltip replacement for Travellers Backpacks
+		<travellersbackpack:travellers_backpack:2>: [
+		format.yellow("Found in Mineshaft and Dungeon Chests")
+	],
+		<travellersbackpack:travellers_backpack:11>: [
+		format.yellow("Found in Blacksmith Villager Chests")
+	],
+		<travellersbackpack:travellers_backpack:24>: [
+		format.yellow("Acquired by wearing a Diamond backpack"),
+		format.yellow("and being struck by lightning")		
+	],
+		<travellersbackpack:travellers_backpack:51>: [
+		format.yellow("Acquired by wearing a Pig backpack"),
+		format.yellow("and being struck by lightning")	
+	],
+		<travellersbackpack:travellers_backpack:71>: [
+		format.yellow("Purchased from a Priest or"),
+		format.yellow("Librarian Villager")
 	]
 };
 
