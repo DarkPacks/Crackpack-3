@@ -10,4 +10,9 @@ function init() {
 			<alchemistry:element:16>,<alchemistry:element:32>,<alchemistry:element:14>
 		]
 	);
+	alchemistry.addCombiner(<tombstone:crafting_ingredient:3>,
+		[
+			<alchemistry:element:69>,<alchemistry:compound:16>,<alchemistry:compound:49>
+		]
+	);
 }
