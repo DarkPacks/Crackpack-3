@@ -22,6 +22,7 @@ Mod Updates:
 * Apotheosis (1.12.3 - 1.12.4) Update makes it so not every piece of armor is "of the mages"
 * Dense Metals (1.2.0.21 - 2.0.0.30)
 * Rats (3.2.3 - 3.2.4)
+* The Betweenlands (3.5.3 - 3.5.4) - Fixed moving walls from deleting gravestones (#96)
 
 ---------------------------------------------------------------------
 
