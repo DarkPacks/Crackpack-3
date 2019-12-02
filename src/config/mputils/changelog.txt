@@ -2,6 +2,29 @@ Please report bugs to the issue tracker!!
 
 ---------------------------------------------------------------------
 
+3.0.5
+
+Bug Fixes:
+* Found the missing changelog
+* Added a recipe for the Deluxe Backpack and reworked tooltips (#95)
+* Removed Galacaticraft Boss mobs from Morph (#99)
+* Fixed Bucket Dupe when crafting Soap (#94)
+
+Enhancements:
+* Slightly lowered the vein chance and size for Silicon Ore in the Beneath
+* Replaced most Beneath Dimension ore with Dense Metal ore
+* Added a, mostly working, conversion system for Ancient Warfare coins to Thermal Expansion Coins (#83)
+* Added a bit more description to the End advancement to unlock flight as not all players are aware of the End Island teleporter
+* Increased Aluminum spawns in the Beneath to help players working with Galacticraft (#85)
+* Added a Chemical Combiner recipe for Grave Dust (#57)
+
+Mod Updates:
+* Apotheosis (1.12.3 - 1.12.4) Update makes it so not every piece of armor is "of the mages"
+* Dense Metals (1.2.0.21 - 2.0.0.30)
+* Rats (3.2.3 - 3.2.4)
+
+---------------------------------------------------------------------
+
 3.0.4
 
 Bug Fixes:
