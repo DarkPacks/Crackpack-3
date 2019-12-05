@@ -1,6 +1,6 @@
 Please report bugs to the issue tracker!!
 
----------------------------------------------------------------------
+------------------------------------------------------------------
 
 3.0.5
 
@@ -13,18 +13,22 @@ Bug Fixes:
 Enhancements:
 * Slightly lowered the vein chance and size for Silicon Ore in the Beneath
 * Replaced most Beneath Dimension ore with Dense Metal ore
-* Added a, mostly working, conversion system for Ancient Warfare coins to Thermal Expansion Coins (#83)
+* Added a, mostly working, conversion system for Ancient Warfare coins to Thermal Expansion Coins(There is a known issue that TE machines do not have the ability to differentiate between different NBT data so only the copper coins currently work. Once TE updates we will fix the silver and gold coin recipes) (#83)
 * Added a bit more description to the End advancement to unlock flight as not all players are aware of the End Island teleporter
 * Increased Aluminum spawns in the Beneath to help players working with Galacticraft (#85)
 * Added a Chemical Combiner recipe for Grave Dust (#57)
 
 Mod Updates:
 * Apotheosis (1.12.3 - 1.12.4) Update makes it so not every piece of armor is "of the mages"
+* Calm Down Zombie Guy (1.4.1 - 1.6.4)
 * Dense Metals (1.2.0.21 - 2.0.0.30)
 * Rats (3.2.3 - 3.2.4)
 * The Betweenlands (3.5.3 - 3.5.4) - Fixed moving walls from deleting gravestones (#96)
 
----------------------------------------------------------------------
+Known Issues:
+* There are a number of Pam's fruit saplings that do not work with TE machines. We have submitted the list to the dev and will update when Thermal Expansion adds in the fix
+
+------------------------------------------------------------------
 
 3.0.4
 
@@ -56,7 +60,7 @@ Mod Updates:
 * The Betweenlands (3.5.2 - 3.5.3)
 * Alchemistry (1.0.35 - 1.0.36)
 
----------------------------------------------------------------------
+------------------------------------------------------------------
 
 
 3.0.3
@@ -81,7 +85,7 @@ Added Mods:
 * Super Sound Muffler(1.0.2.10)
 * BetterFPS
 
----------------------------------------------------------------------
+------------------------------------------------------------------
 
 3.0.2
 
@@ -107,7 +111,7 @@ Mod Updates:
 Known Issues:
 * The Rats mod causes lag when set to automate tasks. We are exploring ways on how to help alleviate this issue without removing the entire mod at this time
 
----------------------------------------------------------------------
+------------------------------------------------------------------
 
 3.0.1
 
@@ -129,7 +133,7 @@ Mod Updates:
 Known Issues:
 * We are aware of an issue stopping Forestry machine recipes from showing up and working on trying to fix it. The recipes do work, they currently do not show in JEI and it seems to be a modpack specific issue
 
----------------------------------------------------------------------
+------------------------------------------------------------------
 
 3.0.0
 
