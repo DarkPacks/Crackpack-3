@@ -28,6 +28,41 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<galacticraftplanets:item_basic_mars:5> , <enderio:item_material:55>,<galacticraftplanets:item_basic_mars:5>],
 			[<galacticraftplanets:item_basic_mars:5> , <icbmclassic:launcherbase:1>,<galacticraftplanets:item_basic_mars:5>]
 		]
+	],
+	<icbmclassic:launcherscreen>: [
+		[
+			[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+			[<ore:plateBronze>, <rftools:rf_monitor>, <ore:plateBronze>],
+			[null , <enderio:block_dark_steel_anvil>, null]
+		]
+	],
+	<icbmclassic:launcherscreen:1>: [
+		[
+			[<ore:plateSteel> , <ore:plateSteel>, <ore:plateSteel>],
+			[<ore:plateSteel> , <icbmclassic:launcherscreen>, <ore:plateSteel>],
+			[null, <xreliquary:pedestal:15>, null]
+		]
+	],
+	<icbmclassic:launcherscreen:2>: [
+		[
+			[<galacticraftplanets:item_basic_mars:5>, <galacticraftplanets:item_basic_mars:5>, <galacticraftplanets:item_basic_mars:5>],
+			[<galacticraftplanets:item_basic_mars:5>, <icbmclassic:launcherscreen:1>, <galacticraftplanets:item_basic_mars:5>],
+			[null, <enderio:block_end_iron_bars>, null]
+		]
+	],
+	<icbmclassic:radarstation>: [
+		[
+			[null , <xnet:antenna_dish>, null],
+			[null , <rftools:screen>, null],
+			[<enderio:item_alloy_ingot:6> , <icbmclassic:battery>, <enderio:item_alloy_ingot:6>]
+		]
+	],
+	<icbmclassic:emptower>: [
+		[
+			[null, <xnet:antenna_dish>, null],
+			[<icbmclassic:battery>, <forestry:thermionic_tubes>, <icbmclassic:battery>],
+			[<rftools:shield_template_block>, <rftools:screen>, <rftools:shield_template_block>]
+		]
 	]
 };
 
@@ -58,7 +93,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IItemStack[] = [
 	<icbmclassic:launcherbase>,
 	<icbmclassic:launcherbase:1>,
-	<icbmclassic:launcherbase:2>
+	<icbmclassic:launcherbase:2>,
+	<icbmclassic:launcherscreen>,
+	<icbmclassic:launcherscreen:1>,
+	<icbmclassic:launcherscreen:2>,
+	<icbmclassic:radarstation>,
+	<icbmclassic:emptower>
+
 ];
 
 function init() {

@@ -27,6 +27,7 @@ function initRecipes() {
 	// Mod Specific Recipes
 	scripts.crafttweaker.recipes.mods.blockcraftery.init();
 	scripts.crafttweaker.recipes.mods.chancecubes.init();
+	scripts.crafttweaker.recipes.mods.computercraft.init();
 	scripts.crafttweaker.recipes.mods.crayfish.init();	
 	scripts.crafttweaker.recipes.mods.dimstack.init();
 	scripts.crafttweaker.recipes.mods.forestry.init();
@@ -45,6 +46,7 @@ function initStaging() {
 function initIntegration() {
 	scripts.crafttweaker.modIntegrations.apotheosis.init();
 	scripts.crafttweaker.modIntegrations.alchemistry.init();
+	scripts.crafttweaker.modIntegrations.enderio.init();
 	scripts.crafttweaker.modIntegrations.lootTableTweaker.init();
 	scripts.crafttweaker.modIntegrations.thermalexpansion.init();
 }

@@ -167,6 +167,15 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		<travellersbackpack:travellers_backpack:71>: [
 		format.yellow("Purchased from a Priest or"),
 		format.yellow("Librarian Villager")
+	],
+		<minecraft:mob_spawner>: [
+		format.yellow("Can be picked up"),
+		format.yellow("with Silk Touch 2")
+	],
+		<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]}): [
+		format.yellow("Combine with another"),
+		format.yellow("Silk Touch book in an Anvil"),
+		format.yellow("to create a Silk Touch II book")
 	]
 };
 

@@ -2,6 +2,61 @@ Please report bugs to the issue tracker!!
 
 ------------------------------------------------------------------
 
+Bug Fixes:
+* Added recipes for missing ICBM machines
+* Aroma Backup now properly removes old backups. The config has been slightly edited to allow 5 full backups and 5 incremental backups. You may want to change this for your own needs
+
+Enhancements:
+* Added option to control xp cost when traveling between dimensions
+* Added Alchemistry Dissolver recipes for a number of Ancient Warfare
+
+Mod Updates:
+* Aroma1997Core (1.12.2-2.0.0.2.b165 - 1.12.2-2.0.0.2.b166)
+* AromaBackup (1.12.2-3.0.0.0.b129 - 1.12.2-3.0.0.0.b130) - Should fix the runaway backup issue so your storage does not fill up from unwanted backups
+* Astral Sorcery (1.10.20 - 1.10.22)
+* Rats (3.2.4 - 3.2.5)
+* Traveler's Backpacks (1.0.20.20 - 1.0.22.22)
+* Waystones (4.0.72 - 4.1.0)
+* EnderIO (5.1.52 - 5.1.55)
+* The Betweenlands (3.5.4 - 3.5.6)
+
+Removed Mods:
+* Corn Bread - Not needed any longer
+
+Known Issues:
+* Due to mod incompatibilities players limbs will stick out of armor when moving. This a cosmetic issue only and requires mod updates to fix
+* Ancient Warfare coins do not properly convert into the correct coins in the Thermal Expansion Compactor. We are hoping TE can make the fix to handle NBT data and get this rolled out to you soon
+
+------------------------------------------------------------------
+
+3.0.6
+
+Bug Fixes:
+* Disabled createSyntheticRecipes in EnderIO to fix Alloy Smelters from eating items when switching slots. This SHOULD have no impact on current setups and SHOULD not slow down current processing speeds
+* Removed the OreSpawn mod (dependency has been deprecated) and regenerated Dense Metals config to fix Dense Ores spawning in the Nether
+* Fixed the recipe overlap between the ComputerCraft Modem and the Chisel Futura blocks
+
+Enhancements:
+* Add silk touch tooltip to alert players about Silk Touch 2
+* Removed the Fade when mousing over icons in the Advancement window
+
+Mod Updates:
+* Biomes O Plenty (1.12.2-7.0.1.2443 - 1.12.2-7.0.1.2444)
+* Electroblob's Wizardry (4.2.5 - 4.2.7)
+* Metamorph (1.1.9 - 1.1.10)
+* FastWorkBench (1.7.2 - 1.7.3)
+* Journeymap (1.12.2-5.5.5 - 1.12.2-5.5.6)
+* YUNG's Better Caves (1.5.1 - 1.6.0)
+* McHorse's McLib (1.0.3 - 1.0.4)
+
+Removed Mods:
+* OreSpawn
+
+Known Issues:
+* Ancient Warfare coins do not properly convert into the correct coins in the Thermal Expansion Compactor. We are hoping TE can make the fix to handle NBT data and get this rolled out to you soon
+
+------------------------------------------------------------------
+
 3.0.5
 
 Bug Fixes:

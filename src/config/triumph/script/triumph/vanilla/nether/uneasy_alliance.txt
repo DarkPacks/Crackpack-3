@@ -5,7 +5,7 @@ setTranslatedDescription("advancements.nether.uneasy_alliance.description")
 
 setFrameType("challenge")
 
-addParent("triumph:vanilla/nether/return_to_sender")
+addParent("triumph:vanilla/nether/root")
 
 setRewardExperience(100)
 
