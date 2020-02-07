@@ -3,11 +3,12 @@ Please report bugs to the issue tracker!!
 ------------------------------------------------------------------
 
 Bug Fixes:
-* Added recipes for missing ICBM machines
+* Added recipes for missing ICBM machines (#132)
 * Aroma Backup now properly removes old backups. The config has been slightly edited to allow 5 full backups and 5 incremental backups. You may want to change this for your own needs
+* Unhid the Botania Mana Tablet in JEI (#124)
 
 Enhancements:
-* Added option to control xp cost when traveling between dimensions
+* Added option to control xp cost when traveling between dimensions (#87)
 * Added Alchemistry Dissolver recipes for a number of Ancient Warfare
 
 Mod Updates:
@@ -15,17 +16,19 @@ Mod Updates:
 * AromaBackup (1.12.2-3.0.0.0.b129 - 1.12.2-3.0.0.0.b130) - Should fix the runaway backup issue so your storage does not fill up from unwanted backups
 * Astral Sorcery (1.10.20 - 1.10.22)
 * Rats (3.2.4 - 3.2.5)
-* Traveler's Backpacks (1.0.20.20 - 1.0.22.22)
+* Traveler's Backpacks (1.0.20.20 - 1.0.22.22) - Should fix dupe bugs and removing blocks when using the hose attachement (#59, #92)
 * Waystones (4.0.72 - 4.1.0)
 * EnderIO (5.1.52 - 5.1.55)
 * The Betweenlands (3.5.4 - 3.5.6)
 
 Removed Mods:
 * Corn Bread - Not needed any longer
+* Due to how the Twitch App works, Orespawn was not properly removed from the release version of the modpack. I have, hopefully, removed it for good this time... (#137, #104)
 
 Known Issues:
 * Due to mod incompatibilities players limbs will stick out of armor when moving. This a cosmetic issue only and requires mod updates to fix
 * Ancient Warfare coins do not properly convert into the correct coins in the Thermal Expansion Compactor. We are hoping TE can make the fix to handle NBT data and get this rolled out to you soon
+* Health amounts can still be stuck on a morph you previously used. Dying should revert health back to the correct number of hearts 
 
 ------------------------------------------------------------------
 
