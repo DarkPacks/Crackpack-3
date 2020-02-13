@@ -24,6 +24,8 @@ Mod Updates:
 Removed Mods:
 * Corn Bread - Not needed any longer
 * Due to how the Twitch App works, Orespawn was not properly removed from the release version of the modpack. I have, hopefully, removed it for good this time... (#137, #104)
+* SuperSoundMuffler
+    * Developer removed the mod from CurseForge :(
 
 Known Issues:
 * Due to mod incompatibilities players limbs will stick out of armor when moving. This a cosmetic issue only and requires mod updates to fix
