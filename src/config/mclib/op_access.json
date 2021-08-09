@@ -1,0 +1,8 @@
+{
+    "mclib": {
+        "drop_items": true
+    },
+    "metamorph": {
+        "entity_selectors": true
+    }
+}

@@ -537,7 +537,8 @@
         ],
         "Command": [
             {
-                "command": "/summon minecart %x ~1 %z"
+                "command": "/summon minecart %x ~1 %z",
+                ""
             }
         ]
     },

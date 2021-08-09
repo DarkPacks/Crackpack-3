@@ -2,6 +2,14 @@ Please report bugs to the issue tracker!!
 
 ------------------------------------------------------------------
 
+3.0.8
+
+Bug fixes and feature improvements to reduce crashes and improve your overall modded Minecraft gaming experience.
+
+------------------------------------------------------------------
+
+3.0.7
+
 Bug Fixes:
 * Added recipes for missing ICBM machines (#132)
 * Aroma Backup now properly removes old backups. The config has been slightly edited to allow 5 full backups and 5 incremental backups. You may want to change this for your own needs
@@ -24,13 +32,11 @@ Mod Updates:
 Removed Mods:
 * Corn Bread - Not needed any longer
 * Due to how the Twitch App works, Orespawn was not properly removed from the release version of the modpack. I have, hopefully, removed it for good this time... (#137, #104)
-* SuperSoundMuffler
-    * Developer removed the mod from CurseForge :(
 
 Known Issues:
 * Due to mod incompatibilities players limbs will stick out of armor when moving. This a cosmetic issue only and requires mod updates to fix
 * Ancient Warfare coins do not properly convert into the correct coins in the Thermal Expansion Compactor. We are hoping TE can make the fix to handle NBT data and get this rolled out to you soon
-* Health amounts can still be stuck on a morph you previously used. Dying should revert health back to the correct number of hearts 
+* Health amounts can still be stuck on a morph you previously used. Dying should revert health back to the correct number of hearts
 
 ------------------------------------------------------------------
 
@@ -107,7 +113,7 @@ Enhancements:
 * Added JEI tabs for a number of ore to give players another place for location information
 * Lowered weight of Rat spawns to be more on par with vanilla spawn rates
 * Are you reading this?
-* Increased drops for Rib Bones and Zombie Hearts. The resulting Bones and Rotten Flesh should be comparable to vanilla amounts 
+* Increased drops for Rib Bones and Zombie Hearts. The resulting Bones and Rotten Flesh should be comparable to vanilla amounts
 * Added a tooltip and loading screen tip to alert players that Rib Bones and Zombie Hearts can be crafted into vanilla items
 * Added a recipe to make Netherrack with Alchemistry
 
