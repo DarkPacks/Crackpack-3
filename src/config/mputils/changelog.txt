@@ -3,6 +3,18 @@ Please report bugs to the issue tracker!!
 
 ------------------------------------------------------------------
 
+3.0.11
+
+IMPORTANT: This update changes tombstone mods. Any old graves from the previous mod will be lost. Ensure any graves have been opened before updating the pack. Use a backup if you have already opened the world with this update.
+
+Mods Added:
+* Simple Tomb (1.0.0)
+
+Mods Removed:
+* Corail's Tombstone
+
+------------------------------------------------------------------
+
 3.0.10
 
 * Updated to patch a recent security vulnerability affecting Minecraft. Read more here regarding clients: http://redsto.ne/java

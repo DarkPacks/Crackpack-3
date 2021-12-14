@@ -120,7 +120,6 @@ key_key.refinedstorage.openWirelessGrid:0:NONE
 key_key.refinedstorage.openWirelessFluidGrid:0:NONE
 key_key.refinedstorage.openPortableGrid:0:NONE
 key_key.refinedstorage.openWirelessCraftingMonitor:0:NONE
-key_tombstone.message.knowledge_of_death:0:NONE
 key_[GC] Galaxy Map:50:NONE
 key_[GC] Open Spaceship Inventory:0:NONE
 key_[GC] Toggle Sensor Goggles Mode:37:NONE
