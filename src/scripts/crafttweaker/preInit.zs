@@ -5,4 +5,4 @@
 
 	Functions or Global creations before other scripts are called.
 */
-static PACK_VERSION as string = "3.0.4"; // Keep below 11 characters
+static PACK_VERSION as string = "3.0.11"; // Keep below 11 characters
