@@ -21,6 +21,7 @@ src/config/jei/lookupHistory.zip
 # Other
 src/config/worldutils/*
 src/config/sampler.ini
+src/config/contentcreatorintegration/logs/*
 
 #dist
 dist/

@@ -1,10 +1,30 @@
 Please report bugs to the issue tracker!!
 
+
+------------------------------------------------------------------
+
+3.0.10
+
+* Updated to patch a recent security vulnerability affecting Minecraft. Read more here regarding clients: http://redsto.ne/java
+
+------------------------------------------------------------------
+
+3.0.9
+
+Bug Fixes:
+* Removed the Scaling GUI mod due to locking the GUI scale in the video menu (this was meant to be used only in dev and was left in by mistake. Thanks to i___m11 for reporting!)
+
 ------------------------------------------------------------------
 
 3.0.8
 
-Bug fixes and feature improvements to reduce crashes and improve your overall modded Minecraft gaming experience.
+Bug Fixes:
+* Armor is now properly shown on players (Issue #148)
+* Pneumaticraft update to fix server crashes (Issue #152)
+* Rats mod updated to fix ore doubling (#166)
+* Greatly reduced number of Pied Piper spawns (Issue #160)
+* Removed a number of high level enchants deemed unnecessary in gameplay
+* Removed Pneumaticraft Oil pools from many dimensions
 
 ------------------------------------------------------------------
 
