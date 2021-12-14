@@ -10,6 +10,10 @@ IMPORTANT: This update changes tombstone mods. Any old graves from the previous 
 Mods Added:
 * Simple Tomb (1.0.0)
 
+Mods Updated:
+* Forge (14.23.5.2858 -> 14.23.5.2860)
+    * More vulnerability fixes & fixes bloat being logged
+
 Mods Removed:
 * Corail's Tombstone
 
