@@ -13,9 +13,21 @@ Mods Added:
 Mods Updated:
 * Forge (14.23.5.2858 -> 14.23.5.2860)
     * More vulnerability fixes & fixes bloat being logged
+* Additional Structures (2.3.1 -> 2.4.1)
+* AromaBackup (3.0.0.0.b130 -> 3.0.0.0.b135)
+* Biomes O Plenty (7.0.1.2444 -> 7.0.1.2444)
+* Enchantment Descriptions (1.1.19 -> 1.1.20)
+* Ender Tweaker (1.2.2 -> 1.2.3)
+* Invetory Tweaks (1.64+dev.146 -> 1.64+dev.151)
+* JEI (4.15.0.292 -> 4.16.1.302)
+* The Beneath (1.7.0 -> 1.7.1)
+* ToolBelt (1.9.13 -> 1.9.14)
+* Travelers Backpack (1.0.27 -> 1.0.35)
 
 Mods Removed:
 * Corail's Tombstone
+* Enchantment Table (QOL Mod)
+    * This project was abandoned sadly. But can still manually be installed, however!
 
 ------------------------------------------------------------------
 
